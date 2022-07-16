@@ -1,0 +1,1235 @@
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 2
+col num : 2 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 1 | next |CANDIDATES| : 1 | cost : 0.021 seconds
+[X=[a0], Y=[a6], arity=2]
+
+cost : 0.027 seconds
+########
+
+alg 1 + 2, cost : 0.027 | #IS : 1 | max arity : 2 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 3
+col num : 3 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.029 seconds
+arity level : 3 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.013 seconds
+[X=[a0, a4], Y=[a2], arity=3]
+[X=[a0], Y=[a2, a4], arity=3]
+[X=[a0, a2], Y=[a4], arity=3]
+
+cost : 0.044 seconds
+########
+
+alg 1 + 2, cost : 0.044 | #IS : 3 | max arity : 3 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 4
+col num : 4 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 3 | next |CANDIDATES| : 9 | cost : 0.051 seconds
+arity level : 3 | |MPCOVER| : 3 | next |CANDIDATES| : 6 | cost : 0.035 seconds
+arity level : 4 | |MPCOVER| : 3 | next |CANDIDATES| : 0 | cost : 0.011 seconds
+[X=[a3, a7], Y=[a6], arity=3]
+[X=[a3], Y=[a6, a7], arity=3]
+[X=[a3, a6], Y=[a7], arity=3]
+
+cost : 0.103 seconds
+########
+
+alg 1 + 2, cost : 0.103 | #IS : 3 | max arity : 3 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 5
+col num : 5 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 6 | next |CANDIDATES| : 24 | cost : 0.038 seconds
+arity level : 3 | |MPCOVER| : 12 | next |CANDIDATES| : 31 | cost : 0.056 seconds
+arity level : 4 | |MPCOVER| : 7 | next |CANDIDATES| : 14 | cost : 0.06 seconds
+arity level : 5 | |MPCOVER| : 7 | next |CANDIDATES| : 0 | cost : 0.025 seconds
+[X=[a1, a6, a7], Y=[a4], arity=4]
+[X=[a1, a6], Y=[a4, a7], arity=4]
+[X=[a1, a7], Y=[a4, a6], arity=4]
+[X=[a1], Y=[a4, a6, a7], arity=4]
+[X=[a1, a4, a7], Y=[a6], arity=4]
+[X=[a1, a4], Y=[a6, a7], arity=4]
+[X=[a1, a4, a6], Y=[a7], arity=4]
+
+cost : 0.183 seconds
+########
+
+alg 1 + 2, cost : 0.183 | #IS : 7 | max arity : 4 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 6
+col num : 6 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 10 | next |CANDIDATES| : 50 | cost : 0.046 seconds
+arity level : 3 | |MPCOVER| : 30 | next |CANDIDATES| : 95 | cost : 0.11 seconds
+arity level : 4 | |MPCOVER| : 35 | next |CANDIDATES| : 85 | cost : 0.215 seconds
+arity level : 5 | |MPCOVER| : 15 | next |CANDIDATES| : 30 | cost : 0.236 seconds
+arity level : 6 | |MPCOVER| : 15 | next |CANDIDATES| : 0 | cost : 0.113 seconds
+[X=[a0, a3, a6, a7], Y=[a2], arity=5]
+[X=[a0, a3, a6], Y=[a2, a7], arity=5]
+[X=[a0, a3, a7], Y=[a2, a6], arity=5]
+[X=[a0, a3], Y=[a2, a6, a7], arity=5]
+[X=[a0, a6, a7], Y=[a2, a3], arity=5]
+[X=[a0, a6], Y=[a2, a3, a7], arity=5]
+[X=[a0, a7], Y=[a2, a3, a6], arity=5]
+[X=[a0], Y=[a2, a3, a6, a7], arity=5]
+[X=[a0, a2, a6, a7], Y=[a3], arity=5]
+[X=[a0, a2, a6], Y=[a3, a7], arity=5]
+[X=[a0, a2, a7], Y=[a3, a6], arity=5]
+[X=[a0, a2], Y=[a3, a6, a7], arity=5]
+[X=[a0, a2, a3, a7], Y=[a6], arity=5]
+[X=[a0, a2, a3], Y=[a6, a7], arity=5]
+[X=[a0, a2, a3, a6], Y=[a7], arity=5]
+
+cost : 0.726 seconds
+########
+
+alg 1 + 2, cost : 0.726 | #IS : 15 | max arity : 5 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 7
+col num : 7 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 21 | next |CANDIDATES| : 105 | cost : 0.071 seconds
+arity level : 3 | |MPCOVER| : 105 | next |CANDIDATES| : 245 | cost : 0.234 seconds
+arity level : 4 | |MPCOVER| : 245 | next |CANDIDATES| : 315 | cost : 0.623 seconds
+arity level : 5 | |MPCOVER| : 315 | next |CANDIDATES| : 217 | cost : 1.168 seconds
+arity level : 6 | |MPCOVER| : 217 | next |CANDIDATES| : 63 | cost : 1.655 seconds
+arity level : 7 | |MPCOVER| : 63 | next |CANDIDATES| : 63 | cost : 0.802 seconds
+[X=[a0, a2, a3, a4, a5, a7], Y=[a1], arity=7]
+[X=[a0, a2, a3, a4, a5], Y=[a1, a7], arity=7]
+[X=[a0, a2, a3, a4, a7], Y=[a1, a5], arity=7]
+[X=[a0, a2, a3, a4], Y=[a1, a5, a7], arity=7]
+[X=[a0, a2, a3, a5, a7], Y=[a1, a4], arity=7]
+[X=[a0, a2, a3, a5], Y=[a1, a4, a7], arity=7]
+[X=[a0, a2, a3, a7], Y=[a1, a4, a5], arity=7]
+[X=[a0, a2, a3], Y=[a1, a4, a5, a7], arity=7]
+[X=[a0, a2, a4, a5, a7], Y=[a1, a3], arity=7]
+[X=[a0, a2, a4, a5], Y=[a1, a3, a7], arity=7]
+[X=[a0, a2, a4, a7], Y=[a1, a3, a5], arity=7]
+[X=[a0, a2, a4], Y=[a1, a3, a5, a7], arity=7]
+[X=[a0, a2, a5, a7], Y=[a1, a3, a4], arity=7]
+[X=[a0, a2, a5], Y=[a1, a3, a4, a7], arity=7]
+[X=[a0, a2, a7], Y=[a1, a3, a4, a5], arity=7]
+[X=[a0, a2], Y=[a1, a3, a4, a5, a7], arity=7]
+[X=[a0, a3, a4, a5, a7], Y=[a1, a2], arity=7]
+[X=[a0, a3, a4, a5], Y=[a1, a2, a7], arity=7]
+[X=[a0, a3, a4, a7], Y=[a1, a2, a5], arity=7]
+[X=[a0, a3, a4], Y=[a1, a2, a5, a7], arity=7]
+[X=[a0, a3, a5, a7], Y=[a1, a2, a4], arity=7]
+[X=[a0, a3, a5], Y=[a1, a2, a4, a7], arity=7]
+[X=[a0, a3, a7], Y=[a1, a2, a4, a5], arity=7]
+[X=[a0, a3], Y=[a1, a2, a4, a5, a7], arity=7]
+[X=[a0, a4, a5, a7], Y=[a1, a2, a3], arity=7]
+[X=[a0, a4, a5], Y=[a1, a2, a3, a7], arity=7]
+[X=[a0, a4, a7], Y=[a1, a2, a3, a5], arity=7]
+[X=[a0, a4], Y=[a1, a2, a3, a5, a7], arity=7]
+[X=[a0, a5, a7], Y=[a1, a2, a3, a4], arity=7]
+[X=[a0, a5], Y=[a1, a2, a3, a4, a7], arity=7]
+[X=[a0, a7], Y=[a1, a2, a3, a4, a5], arity=7]
+[X=[a0], Y=[a1, a2, a3, a4, a5, a7], arity=7]
+[X=[a0, a1, a3, a4, a5, a7], Y=[a2], arity=7]
+[X=[a0, a1, a3, a4, a5], Y=[a2, a7], arity=7]
+[X=[a0, a1, a3, a4, a7], Y=[a2, a5], arity=7]
+[X=[a0, a1, a3, a4], Y=[a2, a5, a7], arity=7]
+[X=[a0, a1, a3, a5, a7], Y=[a2, a4], arity=7]
+[X=[a0, a1, a3, a5], Y=[a2, a4, a7], arity=7]
+[X=[a0, a1, a3, a7], Y=[a2, a4, a5], arity=7]
+[X=[a0, a1, a3], Y=[a2, a4, a5, a7], arity=7]
+[X=[a0, a1, a4, a5, a7], Y=[a2, a3], arity=7]
+[X=[a0, a1, a4, a5], Y=[a2, a3, a7], arity=7]
+[X=[a0, a1, a4, a7], Y=[a2, a3, a5], arity=7]
+[X=[a0, a1, a4], Y=[a2, a3, a5, a7], arity=7]
+[X=[a0, a1, a5, a7], Y=[a2, a3, a4], arity=7]
+[X=[a0, a1, a5], Y=[a2, a3, a4, a7], arity=7]
+[X=[a0, a1, a7], Y=[a2, a3, a4, a5], arity=7]
+[X=[a0, a1], Y=[a2, a3, a4, a5, a7], arity=7]
+[X=[a0, a1, a2, a4, a5, a7], Y=[a3], arity=7]
+[X=[a0, a1, a2, a4, a5], Y=[a3, a7], arity=7]
+[X=[a0, a1, a2, a4, a7], Y=[a3, a5], arity=7]
+[X=[a0, a1, a2, a4], Y=[a3, a5, a7], arity=7]
+[X=[a0, a1, a2, a5, a7], Y=[a3, a4], arity=7]
+[X=[a0, a1, a2, a5], Y=[a3, a4, a7], arity=7]
+[X=[a0, a1, a2, a7], Y=[a3, a4, a5], arity=7]
+[X=[a0, a1, a2], Y=[a3, a4, a5, a7], arity=7]
+[X=[a0, a1, a2, a3, a5, a7], Y=[a4], arity=7]
+[X=[a0, a1, a2, a3, a5], Y=[a4, a7], arity=7]
+[X=[a0, a1, a2, a3, a7], Y=[a4, a5], arity=7]
+[X=[a0, a1, a2, a3], Y=[a4, a5, a7], arity=7]
+[X=[a0, a1, a2, a3, a4, a7], Y=[a5], arity=7]
+[X=[a0, a1, a2, a3, a4], Y=[a5, a7], arity=7]
+[X=[a0, a1, a2, a3, a4, a5], Y=[a7], arity=7]
+
+cost : 4.559 seconds
+########
+
+alg 1 + 2, cost : 4.559 | #IS : 63 | max arity : 7 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 8
+col num : 8 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 21 | next |CANDIDATES| : 147 | cost : 0.081 seconds
+arity level : 3 | |MPCOVER| : 105 | next |CANDIDATES| : 455 | cost : 0.371 seconds
+arity level : 4 | |MPCOVER| : 245 | next |CANDIDATES| : 805 | cost : 1.35 seconds
+arity level : 5 | |MPCOVER| : 315 | next |CANDIDATES| : 847 | cost : 3.208 seconds
+arity level : 6 | |MPCOVER| : 217 | next |CANDIDATES| : 497 | cost : 5.69 seconds
+arity level : 7 | |MPCOVER| : 63 | next |CANDIDATES| : 126 | cost : 4.611 seconds
+arity level : 8 | |MPCOVER| : 63 | next |CANDIDATES| : 0 | cost : 1.234 seconds
+[X=[a0, a2, a3, a4, a6, a7], Y=[a1], arity=7]
+[X=[a0, a2, a3, a4, a6], Y=[a1, a7], arity=7]
+[X=[a0, a2, a3, a4, a7], Y=[a1, a6], arity=7]
+[X=[a0, a2, a3, a4], Y=[a1, a6, a7], arity=7]
+[X=[a0, a2, a3, a6, a7], Y=[a1, a4], arity=7]
+[X=[a0, a2, a3, a6], Y=[a1, a4, a7], arity=7]
+[X=[a0, a2, a3, a7], Y=[a1, a4, a6], arity=7]
+[X=[a0, a2, a3], Y=[a1, a4, a6, a7], arity=7]
+[X=[a0, a2, a4, a6, a7], Y=[a1, a3], arity=7]
+[X=[a0, a2, a4, a6], Y=[a1, a3, a7], arity=7]
+[X=[a0, a2, a4, a7], Y=[a1, a3, a6], arity=7]
+[X=[a0, a2, a4], Y=[a1, a3, a6, a7], arity=7]
+[X=[a0, a2, a6, a7], Y=[a1, a3, a4], arity=7]
+[X=[a0, a2, a6], Y=[a1, a3, a4, a7], arity=7]
+[X=[a0, a2, a7], Y=[a1, a3, a4, a6], arity=7]
+[X=[a0, a2], Y=[a1, a3, a4, a6, a7], arity=7]
+[X=[a0, a3, a4, a6, a7], Y=[a1, a2], arity=7]
+[X=[a0, a3, a4, a6], Y=[a1, a2, a7], arity=7]
+[X=[a0, a3, a4, a7], Y=[a1, a2, a6], arity=7]
+[X=[a0, a3, a4], Y=[a1, a2, a6, a7], arity=7]
+[X=[a0, a3, a6, a7], Y=[a1, a2, a4], arity=7]
+[X=[a0, a3, a6], Y=[a1, a2, a4, a7], arity=7]
+[X=[a0, a3, a7], Y=[a1, a2, a4, a6], arity=7]
+[X=[a0, a3], Y=[a1, a2, a4, a6, a7], arity=7]
+[X=[a0, a4, a6, a7], Y=[a1, a2, a3], arity=7]
+[X=[a0, a4, a6], Y=[a1, a2, a3, a7], arity=7]
+[X=[a0, a4, a7], Y=[a1, a2, a3, a6], arity=7]
+[X=[a0, a4], Y=[a1, a2, a3, a6, a7], arity=7]
+[X=[a0, a6, a7], Y=[a1, a2, a3, a4], arity=7]
+[X=[a0, a6], Y=[a1, a2, a3, a4, a7], arity=7]
+[X=[a0, a7], Y=[a1, a2, a3, a4, a6], arity=7]
+[X=[a0], Y=[a1, a2, a3, a4, a6, a7], arity=7]
+[X=[a0, a1, a3, a4, a6, a7], Y=[a2], arity=7]
+[X=[a0, a1, a3, a4, a6], Y=[a2, a7], arity=7]
+[X=[a0, a1, a3, a4, a7], Y=[a2, a6], arity=7]
+[X=[a0, a1, a3, a4], Y=[a2, a6, a7], arity=7]
+[X=[a0, a1, a3, a6, a7], Y=[a2, a4], arity=7]
+[X=[a0, a1, a3, a6], Y=[a2, a4, a7], arity=7]
+[X=[a0, a1, a3, a7], Y=[a2, a4, a6], arity=7]
+[X=[a0, a1, a3], Y=[a2, a4, a6, a7], arity=7]
+[X=[a0, a1, a4, a6, a7], Y=[a2, a3], arity=7]
+[X=[a0, a1, a4, a6], Y=[a2, a3, a7], arity=7]
+[X=[a0, a1, a4, a7], Y=[a2, a3, a6], arity=7]
+[X=[a0, a1, a4], Y=[a2, a3, a6, a7], arity=7]
+[X=[a0, a1, a6, a7], Y=[a2, a3, a4], arity=7]
+[X=[a0, a1, a6], Y=[a2, a3, a4, a7], arity=7]
+[X=[a0, a1, a7], Y=[a2, a3, a4, a6], arity=7]
+[X=[a0, a1], Y=[a2, a3, a4, a6, a7], arity=7]
+[X=[a0, a1, a2, a4, a6, a7], Y=[a3], arity=7]
+[X=[a0, a1, a2, a4, a6], Y=[a3, a7], arity=7]
+[X=[a0, a1, a2, a4, a7], Y=[a3, a6], arity=7]
+[X=[a0, a1, a2, a4], Y=[a3, a6, a7], arity=7]
+[X=[a0, a1, a2, a6, a7], Y=[a3, a4], arity=7]
+[X=[a0, a1, a2, a6], Y=[a3, a4, a7], arity=7]
+[X=[a0, a1, a2, a7], Y=[a3, a4, a6], arity=7]
+[X=[a0, a1, a2], Y=[a3, a4, a6, a7], arity=7]
+[X=[a0, a1, a2, a3, a6, a7], Y=[a4], arity=7]
+[X=[a0, a1, a2, a3, a6], Y=[a4, a7], arity=7]
+[X=[a0, a1, a2, a3, a7], Y=[a4, a6], arity=7]
+[X=[a0, a1, a2, a3], Y=[a4, a6, a7], arity=7]
+[X=[a0, a1, a2, a3, a4, a7], Y=[a6], arity=7]
+[X=[a0, a1, a2, a3, a4], Y=[a6, a7], arity=7]
+[X=[a0, a1, a2, a3, a4, a6], Y=[a7], arity=7]
+
+cost : 16.553 seconds
+########
+
+alg 1 + 2, cost : 16.553 | #IS : 63 | max arity : 7 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 9
+col num : 9 | row num : 12960
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 28 | next |CANDIDATES| : 224 | cost : 0.151 seconds
+arity level : 3 | |MPCOVER| : 168 | next |CANDIDATES| : 826 | cost : 0.638 seconds
+arity level : 4 | |MPCOVER| : 490 | next |CANDIDATES| : 1820 | cost : 2.206 seconds
+arity level : 5 | |MPCOVER| : 840 | next |CANDIDATES| : 2548 | cost : 6.106 seconds
+arity level : 6 | |MPCOVER| : 868 | next |CANDIDATES| : 2240 | cost : 13.066 seconds
+arity level : 7 | |MPCOVER| : 504 | next |CANDIDATES| : 1135 | cost : 15.355 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 254 | cost : 8.667 seconds
+arity level : 9 | |MPCOVER| : 127 | next |CANDIDATES| : 0 | cost : 1.921 seconds
+[X=[a0, a2, a3, a4, a5, a6, a7], Y=[a1], arity=8]
+[X=[a0, a2, a3, a4, a5, a6], Y=[a1, a7], arity=8]
+[X=[a0, a2, a3, a4, a5, a7], Y=[a1, a6], arity=8]
+[X=[a0, a2, a3, a4, a5], Y=[a1, a6, a7], arity=8]
+[X=[a0, a2, a3, a4, a6, a7], Y=[a1, a5], arity=8]
+[X=[a0, a2, a3, a4, a6], Y=[a1, a5, a7], arity=8]
+[X=[a0, a2, a3, a4, a7], Y=[a1, a5, a6], arity=8]
+[X=[a0, a2, a3, a4], Y=[a1, a5, a6, a7], arity=8]
+[X=[a0, a2, a3, a5, a6, a7], Y=[a1, a4], arity=8]
+[X=[a0, a2, a3, a5, a6], Y=[a1, a4, a7], arity=8]
+[X=[a0, a2, a3, a5, a7], Y=[a1, a4, a6], arity=8]
+[X=[a0, a2, a3, a5], Y=[a1, a4, a6, a7], arity=8]
+[X=[a0, a2, a3, a6, a7], Y=[a1, a4, a5], arity=8]
+[X=[a0, a2, a3, a6], Y=[a1, a4, a5, a7], arity=8]
+[X=[a0, a2, a3, a7], Y=[a1, a4, a5, a6], arity=8]
+[X=[a0, a2, a3], Y=[a1, a4, a5, a6, a7], arity=8]
+[X=[a0, a2, a4, a5, a6, a7], Y=[a1, a3], arity=8]
+[X=[a0, a2, a4, a5, a6], Y=[a1, a3, a7], arity=8]
+[X=[a0, a2, a4, a5, a7], Y=[a1, a3, a6], arity=8]
+[X=[a0, a2, a4, a5], Y=[a1, a3, a6, a7], arity=8]
+[X=[a0, a2, a4, a6, a7], Y=[a1, a3, a5], arity=8]
+[X=[a0, a2, a4, a6], Y=[a1, a3, a5, a7], arity=8]
+[X=[a0, a2, a4, a7], Y=[a1, a3, a5, a6], arity=8]
+[X=[a0, a2, a4], Y=[a1, a3, a5, a6, a7], arity=8]
+[X=[a0, a2, a5, a6, a7], Y=[a1, a3, a4], arity=8]
+[X=[a0, a2, a5, a6], Y=[a1, a3, a4, a7], arity=8]
+[X=[a0, a2, a5, a7], Y=[a1, a3, a4, a6], arity=8]
+[X=[a0, a2, a5], Y=[a1, a3, a4, a6, a7], arity=8]
+[X=[a0, a2, a6, a7], Y=[a1, a3, a4, a5], arity=8]
+[X=[a0, a2, a6], Y=[a1, a3, a4, a5, a7], arity=8]
+[X=[a0, a2, a7], Y=[a1, a3, a4, a5, a6], arity=8]
+[X=[a0, a2], Y=[a1, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a3, a4, a5, a6, a7], Y=[a1, a2], arity=8]
+[X=[a0, a3, a4, a5, a6], Y=[a1, a2, a7], arity=8]
+[X=[a0, a3, a4, a5, a7], Y=[a1, a2, a6], arity=8]
+[X=[a0, a3, a4, a5], Y=[a1, a2, a6, a7], arity=8]
+[X=[a0, a3, a4, a6, a7], Y=[a1, a2, a5], arity=8]
+[X=[a0, a3, a4, a6], Y=[a1, a2, a5, a7], arity=8]
+[X=[a0, a3, a4, a7], Y=[a1, a2, a5, a6], arity=8]
+[X=[a0, a3, a4], Y=[a1, a2, a5, a6, a7], arity=8]
+[X=[a0, a3, a5, a6, a7], Y=[a1, a2, a4], arity=8]
+[X=[a0, a3, a5, a6], Y=[a1, a2, a4, a7], arity=8]
+[X=[a0, a3, a5, a7], Y=[a1, a2, a4, a6], arity=8]
+[X=[a0, a3, a5], Y=[a1, a2, a4, a6, a7], arity=8]
+[X=[a0, a3, a6, a7], Y=[a1, a2, a4, a5], arity=8]
+[X=[a0, a3, a6], Y=[a1, a2, a4, a5, a7], arity=8]
+[X=[a0, a3, a7], Y=[a1, a2, a4, a5, a6], arity=8]
+[X=[a0, a3], Y=[a1, a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a4, a5, a6, a7], Y=[a1, a2, a3], arity=8]
+[X=[a0, a4, a5, a6], Y=[a1, a2, a3, a7], arity=8]
+[X=[a0, a4, a5, a7], Y=[a1, a2, a3, a6], arity=8]
+[X=[a0, a4, a5], Y=[a1, a2, a3, a6, a7], arity=8]
+[X=[a0, a4, a6, a7], Y=[a1, a2, a3, a5], arity=8]
+[X=[a0, a4, a6], Y=[a1, a2, a3, a5, a7], arity=8]
+[X=[a0, a4, a7], Y=[a1, a2, a3, a5, a6], arity=8]
+[X=[a0, a4], Y=[a1, a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a5, a6, a7], Y=[a1, a2, a3, a4], arity=8]
+[X=[a0, a5, a6], Y=[a1, a2, a3, a4, a7], arity=8]
+[X=[a0, a5, a7], Y=[a1, a2, a3, a4, a6], arity=8]
+[X=[a0, a5], Y=[a1, a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a6, a7], Y=[a1, a2, a3, a4, a5], arity=8]
+[X=[a0, a6], Y=[a1, a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a7], Y=[a1, a2, a3, a4, a5, a6], arity=8]
+[X=[a0], Y=[a1, a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a6, a7], Y=[a2], arity=8]
+[X=[a0, a1, a3, a4, a5, a6], Y=[a2, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a7], Y=[a2, a6], arity=8]
+[X=[a0, a1, a3, a4, a5], Y=[a2, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a6, a7], Y=[a2, a5], arity=8]
+[X=[a0, a1, a3, a4, a6], Y=[a2, a5, a7], arity=8]
+[X=[a0, a1, a3, a4, a7], Y=[a2, a5, a6], arity=8]
+[X=[a0, a1, a3, a4], Y=[a2, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a5, a6, a7], Y=[a2, a4], arity=8]
+[X=[a0, a1, a3, a5, a6], Y=[a2, a4, a7], arity=8]
+[X=[a0, a1, a3, a5, a7], Y=[a2, a4, a6], arity=8]
+[X=[a0, a1, a3, a5], Y=[a2, a4, a6, a7], arity=8]
+[X=[a0, a1, a3, a6, a7], Y=[a2, a4, a5], arity=8]
+[X=[a0, a1, a3, a6], Y=[a2, a4, a5, a7], arity=8]
+[X=[a0, a1, a3, a7], Y=[a2, a4, a5, a6], arity=8]
+[X=[a0, a1, a3], Y=[a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a4, a5, a6, a7], Y=[a2, a3], arity=8]
+[X=[a0, a1, a4, a5, a6], Y=[a2, a3, a7], arity=8]
+[X=[a0, a1, a4, a5, a7], Y=[a2, a3, a6], arity=8]
+[X=[a0, a1, a4, a5], Y=[a2, a3, a6, a7], arity=8]
+[X=[a0, a1, a4, a6, a7], Y=[a2, a3, a5], arity=8]
+[X=[a0, a1, a4, a6], Y=[a2, a3, a5, a7], arity=8]
+[X=[a0, a1, a4, a7], Y=[a2, a3, a5, a6], arity=8]
+[X=[a0, a1, a4], Y=[a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a5, a6, a7], Y=[a2, a3, a4], arity=8]
+[X=[a0, a1, a5, a6], Y=[a2, a3, a4, a7], arity=8]
+[X=[a0, a1, a5, a7], Y=[a2, a3, a4, a6], arity=8]
+[X=[a0, a1, a5], Y=[a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a6, a7], Y=[a2, a3, a4, a5], arity=8]
+[X=[a0, a1, a6], Y=[a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a7], Y=[a2, a3, a4, a5, a6], arity=8]
+[X=[a0, a1], Y=[a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a6, a7], Y=[a3], arity=8]
+[X=[a0, a1, a2, a4, a5, a6], Y=[a3, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a7], Y=[a3, a6], arity=8]
+[X=[a0, a1, a2, a4, a5], Y=[a3, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a6, a7], Y=[a3, a5], arity=8]
+[X=[a0, a1, a2, a4, a6], Y=[a3, a5, a7], arity=8]
+[X=[a0, a1, a2, a4, a7], Y=[a3, a5, a6], arity=8]
+[X=[a0, a1, a2, a4], Y=[a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a5, a6, a7], Y=[a3, a4], arity=8]
+[X=[a0, a1, a2, a5, a6], Y=[a3, a4, a7], arity=8]
+[X=[a0, a1, a2, a5, a7], Y=[a3, a4, a6], arity=8]
+[X=[a0, a1, a2, a5], Y=[a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a6, a7], Y=[a3, a4, a5], arity=8]
+[X=[a0, a1, a2, a6], Y=[a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a7], Y=[a3, a4, a5, a6], arity=8]
+[X=[a0, a1, a2], Y=[a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a6, a7], Y=[a4], arity=8]
+[X=[a0, a1, a2, a3, a5, a6], Y=[a4, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a7], Y=[a4, a6], arity=8]
+[X=[a0, a1, a2, a3, a5], Y=[a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a6, a7], Y=[a4, a5], arity=8]
+[X=[a0, a1, a2, a3, a6], Y=[a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a7], Y=[a4, a5, a6], arity=8]
+[X=[a0, a1, a2, a3], Y=[a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a6, a7], Y=[a5], arity=8]
+[X=[a0, a1, a2, a3, a4, a6], Y=[a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a7], Y=[a5, a6], arity=8]
+[X=[a0, a1, a2, a3, a4], Y=[a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a7], Y=[a6], arity=8]
+[X=[a0, a1, a2, a3, a4, a5], Y=[a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a6], Y=[a7], arity=8]
+
+cost : 48.119 seconds
+########
+
+alg 1 + 2, cost : 48.119 | #IS : 127 | max arity : 8 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 2
+col num : 2 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 1 | next |CANDIDATES| : 1 | cost : 0.004 seconds
+[X=[a2], Y=[a4], arity=2]
+
+cost : 0.005 seconds
+########
+
+alg 1 + 3, cost : 0.005 | #IS : 1 | max arity : 2 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 3
+col num : 3 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.011 seconds
+arity level : 3 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.006 seconds
+[X=[a0, a6], Y=[a1], arity=3]
+[X=[a0], Y=[a1, a6], arity=3]
+[X=[a0, a1], Y=[a6], arity=3]
+
+cost : 0.019 seconds
+########
+
+alg 1 + 3, cost : 0.019 | #IS : 3 | max arity : 3 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 4
+col num : 4 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.023 seconds
+arity level : 3 | |MPCOVER| : 3 | next |CANDIDATES| : 0 | cost : 0.007 seconds
+[X=[a1, a4], Y=[a2], arity=3]
+[X=[a1], Y=[a2, a4], arity=3]
+[X=[a1, a2], Y=[a4], arity=3]
+
+cost : 0.032 seconds
+########
+
+alg 1 + 3, cost : 0.032 | #IS : 3 | max arity : 3 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 5
+col num : 5 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 6 | next |CANDIDATES| : 12 | cost : 0.029 seconds
+arity level : 3 | |MPCOVER| : 12 | next |CANDIDATES| : 7 | cost : 0.019 seconds
+arity level : 4 | |MPCOVER| : 7 | next |CANDIDATES| : 0 | cost : 0.013 seconds
+[X=[a0, a3, a5], Y=[a2], arity=4]
+[X=[a0, a3], Y=[a2, a5], arity=4]
+[X=[a0, a5], Y=[a2, a3], arity=4]
+[X=[a0], Y=[a2, a3, a5], arity=4]
+[X=[a0, a2, a5], Y=[a3], arity=4]
+[X=[a0, a2], Y=[a3, a5], arity=4]
+[X=[a0, a2, a3], Y=[a5], arity=4]
+
+cost : 0.064 seconds
+########
+
+alg 1 + 3, cost : 0.064 | #IS : 7 | max arity : 4 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 6
+col num : 6 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 10 | next |CANDIDATES| : 30 | cost : 0.042 seconds
+arity level : 3 | |MPCOVER| : 30 | next |CANDIDATES| : 35 | cost : 0.054 seconds
+arity level : 4 | |MPCOVER| : 35 | next |CANDIDATES| : 15 | cost : 0.077 seconds
+arity level : 5 | |MPCOVER| : 15 | next |CANDIDATES| : 0 | cost : 0.041 seconds
+[X=[a1, a4, a5, a6], Y=[a3], arity=5]
+[X=[a1, a4, a5], Y=[a3, a6], arity=5]
+[X=[a1, a4, a6], Y=[a3, a5], arity=5]
+[X=[a1, a4], Y=[a3, a5, a6], arity=5]
+[X=[a1, a5, a6], Y=[a3, a4], arity=5]
+[X=[a1, a5], Y=[a3, a4, a6], arity=5]
+[X=[a1, a6], Y=[a3, a4, a5], arity=5]
+[X=[a1], Y=[a3, a4, a5, a6], arity=5]
+[X=[a1, a3, a5, a6], Y=[a4], arity=5]
+[X=[a1, a3, a5], Y=[a4, a6], arity=5]
+[X=[a1, a3, a6], Y=[a4, a5], arity=5]
+[X=[a1, a3], Y=[a4, a5, a6], arity=5]
+[X=[a1, a3, a4, a6], Y=[a5], arity=5]
+[X=[a1, a3, a4], Y=[a5, a6], arity=5]
+[X=[a1, a3, a4, a5], Y=[a6], arity=5]
+
+cost : 0.219 seconds
+########
+
+alg 1 + 3, cost : 0.219 | #IS : 15 | max arity : 5 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 7
+col num : 7 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 15 | next |CANDIDATES| : 60 | cost : 0.06 seconds
+arity level : 3 | |MPCOVER| : 60 | next |CANDIDATES| : 105 | cost : 0.12 seconds
+arity level : 4 | |MPCOVER| : 105 | next |CANDIDATES| : 90 | cost : 0.27 seconds
+arity level : 5 | |MPCOVER| : 90 | next |CANDIDATES| : 31 | cost : 0.372 seconds
+arity level : 6 | |MPCOVER| : 31 | next |CANDIDATES| : 0 | cost : 0.261 seconds
+[X=[a0, a3, a4, a6, a7], Y=[a1], arity=6]
+[X=[a0, a3, a4, a6], Y=[a1, a7], arity=6]
+[X=[a0, a3, a4, a7], Y=[a1, a6], arity=6]
+[X=[a0, a3, a4], Y=[a1, a6, a7], arity=6]
+[X=[a0, a3, a6, a7], Y=[a1, a4], arity=6]
+[X=[a0, a3, a6], Y=[a1, a4, a7], arity=6]
+[X=[a0, a3, a7], Y=[a1, a4, a6], arity=6]
+[X=[a0, a3], Y=[a1, a4, a6, a7], arity=6]
+[X=[a0, a4, a6, a7], Y=[a1, a3], arity=6]
+[X=[a0, a4, a6], Y=[a1, a3, a7], arity=6]
+[X=[a0, a4, a7], Y=[a1, a3, a6], arity=6]
+[X=[a0, a4], Y=[a1, a3, a6, a7], arity=6]
+[X=[a0, a6, a7], Y=[a1, a3, a4], arity=6]
+[X=[a0, a6], Y=[a1, a3, a4, a7], arity=6]
+[X=[a0, a7], Y=[a1, a3, a4, a6], arity=6]
+[X=[a0], Y=[a1, a3, a4, a6, a7], arity=6]
+[X=[a0, a1, a4, a6, a7], Y=[a3], arity=6]
+[X=[a0, a1, a4, a6], Y=[a3, a7], arity=6]
+[X=[a0, a1, a4, a7], Y=[a3, a6], arity=6]
+[X=[a0, a1, a4], Y=[a3, a6, a7], arity=6]
+[X=[a0, a1, a6, a7], Y=[a3, a4], arity=6]
+[X=[a0, a1, a6], Y=[a3, a4, a7], arity=6]
+[X=[a0, a1, a7], Y=[a3, a4, a6], arity=6]
+[X=[a0, a1], Y=[a3, a4, a6, a7], arity=6]
+[X=[a0, a1, a3, a6, a7], Y=[a4], arity=6]
+[X=[a0, a1, a3, a6], Y=[a4, a7], arity=6]
+[X=[a0, a1, a3, a7], Y=[a4, a6], arity=6]
+[X=[a0, a1, a3], Y=[a4, a6, a7], arity=6]
+[X=[a0, a1, a3, a4, a7], Y=[a6], arity=6]
+[X=[a0, a1, a3, a4], Y=[a6, a7], arity=6]
+[X=[a0, a1, a3, a4, a6], Y=[a7], arity=6]
+
+cost : 1.088 seconds
+########
+
+alg 1 + 3, cost : 1.088 | #IS : 31 | max arity : 6 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 8
+col num : 8 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 28 | next |CANDIDATES| : 168 | cost : 0.077 seconds
+arity level : 3 | |MPCOVER| : 168 | next |CANDIDATES| : 490 | cost : 0.348 seconds
+arity level : 4 | |MPCOVER| : 490 | next |CANDIDATES| : 840 | cost : 1.239 seconds
+arity level : 5 | |MPCOVER| : 840 | next |CANDIDATES| : 868 | cost : 3.117 seconds
+arity level : 6 | |MPCOVER| : 868 | next |CANDIDATES| : 504 | cost : 6.079 seconds
+arity level : 7 | |MPCOVER| : 504 | next |CANDIDATES| : 127 | cost : 5.669 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 127 | cost : 2.093 seconds
+[X=[a0, a2, a3, a4, a5, a6, a7], Y=[a1], arity=8]
+[X=[a0, a2, a3, a4, a5, a6], Y=[a1, a7], arity=8]
+[X=[a0, a2, a3, a4, a5, a7], Y=[a1, a6], arity=8]
+[X=[a0, a2, a3, a4, a5], Y=[a1, a6, a7], arity=8]
+[X=[a0, a2, a3, a4, a6, a7], Y=[a1, a5], arity=8]
+[X=[a0, a2, a3, a4, a6], Y=[a1, a5, a7], arity=8]
+[X=[a0, a2, a3, a4, a7], Y=[a1, a5, a6], arity=8]
+[X=[a0, a2, a3, a4], Y=[a1, a5, a6, a7], arity=8]
+[X=[a0, a2, a3, a5, a6, a7], Y=[a1, a4], arity=8]
+[X=[a0, a2, a3, a5, a6], Y=[a1, a4, a7], arity=8]
+[X=[a0, a2, a3, a5, a7], Y=[a1, a4, a6], arity=8]
+[X=[a0, a2, a3, a5], Y=[a1, a4, a6, a7], arity=8]
+[X=[a0, a2, a3, a6, a7], Y=[a1, a4, a5], arity=8]
+[X=[a0, a2, a3, a6], Y=[a1, a4, a5, a7], arity=8]
+[X=[a0, a2, a3, a7], Y=[a1, a4, a5, a6], arity=8]
+[X=[a0, a2, a3], Y=[a1, a4, a5, a6, a7], arity=8]
+[X=[a0, a2, a4, a5, a6, a7], Y=[a1, a3], arity=8]
+[X=[a0, a2, a4, a5, a6], Y=[a1, a3, a7], arity=8]
+[X=[a0, a2, a4, a5, a7], Y=[a1, a3, a6], arity=8]
+[X=[a0, a2, a4, a5], Y=[a1, a3, a6, a7], arity=8]
+[X=[a0, a2, a4, a6, a7], Y=[a1, a3, a5], arity=8]
+[X=[a0, a2, a4, a6], Y=[a1, a3, a5, a7], arity=8]
+[X=[a0, a2, a4, a7], Y=[a1, a3, a5, a6], arity=8]
+[X=[a0, a2, a4], Y=[a1, a3, a5, a6, a7], arity=8]
+[X=[a0, a2, a5, a6, a7], Y=[a1, a3, a4], arity=8]
+[X=[a0, a2, a5, a6], Y=[a1, a3, a4, a7], arity=8]
+[X=[a0, a2, a5, a7], Y=[a1, a3, a4, a6], arity=8]
+[X=[a0, a2, a5], Y=[a1, a3, a4, a6, a7], arity=8]
+[X=[a0, a2, a6, a7], Y=[a1, a3, a4, a5], arity=8]
+[X=[a0, a2, a6], Y=[a1, a3, a4, a5, a7], arity=8]
+[X=[a0, a2, a7], Y=[a1, a3, a4, a5, a6], arity=8]
+[X=[a0, a2], Y=[a1, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a3, a4, a5, a6, a7], Y=[a1, a2], arity=8]
+[X=[a0, a3, a4, a5, a6], Y=[a1, a2, a7], arity=8]
+[X=[a0, a3, a4, a5, a7], Y=[a1, a2, a6], arity=8]
+[X=[a0, a3, a4, a5], Y=[a1, a2, a6, a7], arity=8]
+[X=[a0, a3, a4, a6, a7], Y=[a1, a2, a5], arity=8]
+[X=[a0, a3, a4, a6], Y=[a1, a2, a5, a7], arity=8]
+[X=[a0, a3, a4, a7], Y=[a1, a2, a5, a6], arity=8]
+[X=[a0, a3, a4], Y=[a1, a2, a5, a6, a7], arity=8]
+[X=[a0, a3, a5, a6, a7], Y=[a1, a2, a4], arity=8]
+[X=[a0, a3, a5, a6], Y=[a1, a2, a4, a7], arity=8]
+[X=[a0, a3, a5, a7], Y=[a1, a2, a4, a6], arity=8]
+[X=[a0, a3, a5], Y=[a1, a2, a4, a6, a7], arity=8]
+[X=[a0, a3, a6, a7], Y=[a1, a2, a4, a5], arity=8]
+[X=[a0, a3, a6], Y=[a1, a2, a4, a5, a7], arity=8]
+[X=[a0, a3, a7], Y=[a1, a2, a4, a5, a6], arity=8]
+[X=[a0, a3], Y=[a1, a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a4, a5, a6, a7], Y=[a1, a2, a3], arity=8]
+[X=[a0, a4, a5, a6], Y=[a1, a2, a3, a7], arity=8]
+[X=[a0, a4, a5, a7], Y=[a1, a2, a3, a6], arity=8]
+[X=[a0, a4, a5], Y=[a1, a2, a3, a6, a7], arity=8]
+[X=[a0, a4, a6, a7], Y=[a1, a2, a3, a5], arity=8]
+[X=[a0, a4, a6], Y=[a1, a2, a3, a5, a7], arity=8]
+[X=[a0, a4, a7], Y=[a1, a2, a3, a5, a6], arity=8]
+[X=[a0, a4], Y=[a1, a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a5, a6, a7], Y=[a1, a2, a3, a4], arity=8]
+[X=[a0, a5, a6], Y=[a1, a2, a3, a4, a7], arity=8]
+[X=[a0, a5, a7], Y=[a1, a2, a3, a4, a6], arity=8]
+[X=[a0, a5], Y=[a1, a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a6, a7], Y=[a1, a2, a3, a4, a5], arity=8]
+[X=[a0, a6], Y=[a1, a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a7], Y=[a1, a2, a3, a4, a5, a6], arity=8]
+[X=[a0], Y=[a1, a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a6, a7], Y=[a2], arity=8]
+[X=[a0, a1, a3, a4, a5, a6], Y=[a2, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a7], Y=[a2, a6], arity=8]
+[X=[a0, a1, a3, a4, a5], Y=[a2, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a6, a7], Y=[a2, a5], arity=8]
+[X=[a0, a1, a3, a4, a6], Y=[a2, a5, a7], arity=8]
+[X=[a0, a1, a3, a4, a7], Y=[a2, a5, a6], arity=8]
+[X=[a0, a1, a3, a4], Y=[a2, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a5, a6, a7], Y=[a2, a4], arity=8]
+[X=[a0, a1, a3, a5, a6], Y=[a2, a4, a7], arity=8]
+[X=[a0, a1, a3, a5, a7], Y=[a2, a4, a6], arity=8]
+[X=[a0, a1, a3, a5], Y=[a2, a4, a6, a7], arity=8]
+[X=[a0, a1, a3, a6, a7], Y=[a2, a4, a5], arity=8]
+[X=[a0, a1, a3, a6], Y=[a2, a4, a5, a7], arity=8]
+[X=[a0, a1, a3, a7], Y=[a2, a4, a5, a6], arity=8]
+[X=[a0, a1, a3], Y=[a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a4, a5, a6, a7], Y=[a2, a3], arity=8]
+[X=[a0, a1, a4, a5, a6], Y=[a2, a3, a7], arity=8]
+[X=[a0, a1, a4, a5, a7], Y=[a2, a3, a6], arity=8]
+[X=[a0, a1, a4, a5], Y=[a2, a3, a6, a7], arity=8]
+[X=[a0, a1, a4, a6, a7], Y=[a2, a3, a5], arity=8]
+[X=[a0, a1, a4, a6], Y=[a2, a3, a5, a7], arity=8]
+[X=[a0, a1, a4, a7], Y=[a2, a3, a5, a6], arity=8]
+[X=[a0, a1, a4], Y=[a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a5, a6, a7], Y=[a2, a3, a4], arity=8]
+[X=[a0, a1, a5, a6], Y=[a2, a3, a4, a7], arity=8]
+[X=[a0, a1, a5, a7], Y=[a2, a3, a4, a6], arity=8]
+[X=[a0, a1, a5], Y=[a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a6, a7], Y=[a2, a3, a4, a5], arity=8]
+[X=[a0, a1, a6], Y=[a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a7], Y=[a2, a3, a4, a5, a6], arity=8]
+[X=[a0, a1], Y=[a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a6, a7], Y=[a3], arity=8]
+[X=[a0, a1, a2, a4, a5, a6], Y=[a3, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a7], Y=[a3, a6], arity=8]
+[X=[a0, a1, a2, a4, a5], Y=[a3, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a6, a7], Y=[a3, a5], arity=8]
+[X=[a0, a1, a2, a4, a6], Y=[a3, a5, a7], arity=8]
+[X=[a0, a1, a2, a4, a7], Y=[a3, a5, a6], arity=8]
+[X=[a0, a1, a2, a4], Y=[a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a5, a6, a7], Y=[a3, a4], arity=8]
+[X=[a0, a1, a2, a5, a6], Y=[a3, a4, a7], arity=8]
+[X=[a0, a1, a2, a5, a7], Y=[a3, a4, a6], arity=8]
+[X=[a0, a1, a2, a5], Y=[a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a6, a7], Y=[a3, a4, a5], arity=8]
+[X=[a0, a1, a2, a6], Y=[a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a7], Y=[a3, a4, a5, a6], arity=8]
+[X=[a0, a1, a2], Y=[a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a6, a7], Y=[a4], arity=8]
+[X=[a0, a1, a2, a3, a5, a6], Y=[a4, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a7], Y=[a4, a6], arity=8]
+[X=[a0, a1, a2, a3, a5], Y=[a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a6, a7], Y=[a4, a5], arity=8]
+[X=[a0, a1, a2, a3, a6], Y=[a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a7], Y=[a4, a5, a6], arity=8]
+[X=[a0, a1, a2, a3], Y=[a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a6, a7], Y=[a5], arity=8]
+[X=[a0, a1, a2, a3, a4, a6], Y=[a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a7], Y=[a5, a6], arity=8]
+[X=[a0, a1, a2, a3, a4], Y=[a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a7], Y=[a6], arity=8]
+[X=[a0, a1, a2, a3, a4, a5], Y=[a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a6], Y=[a7], arity=8]
+
+cost : 18.631 seconds
+########
+
+alg 1 + 3, cost : 18.631 | #IS : 127 | max arity : 8 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 9
+col num : 9 | row num : 12960
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 28 | next |CANDIDATES| : 168 | cost : 0.113 seconds
+arity level : 3 | |MPCOVER| : 168 | next |CANDIDATES| : 490 | cost : 0.365 seconds
+arity level : 4 | |MPCOVER| : 490 | next |CANDIDATES| : 840 | cost : 1.324 seconds
+arity level : 5 | |MPCOVER| : 840 | next |CANDIDATES| : 868 | cost : 3.292 seconds
+arity level : 6 | |MPCOVER| : 868 | next |CANDIDATES| : 504 | cost : 6.1 seconds
+arity level : 7 | |MPCOVER| : 504 | next |CANDIDATES| : 127 | cost : 5.359 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 0 | cost : 1.943 seconds
+[X=[a0, a2, a3, a4, a5, a6, a7], Y=[a1], arity=8]
+[X=[a0, a2, a3, a4, a5, a6], Y=[a1, a7], arity=8]
+[X=[a0, a2, a3, a4, a5, a7], Y=[a1, a6], arity=8]
+[X=[a0, a2, a3, a4, a5], Y=[a1, a6, a7], arity=8]
+[X=[a0, a2, a3, a4, a6, a7], Y=[a1, a5], arity=8]
+[X=[a0, a2, a3, a4, a6], Y=[a1, a5, a7], arity=8]
+[X=[a0, a2, a3, a4, a7], Y=[a1, a5, a6], arity=8]
+[X=[a0, a2, a3, a4], Y=[a1, a5, a6, a7], arity=8]
+[X=[a0, a2, a3, a5, a6, a7], Y=[a1, a4], arity=8]
+[X=[a0, a2, a3, a5, a6], Y=[a1, a4, a7], arity=8]
+[X=[a0, a2, a3, a5, a7], Y=[a1, a4, a6], arity=8]
+[X=[a0, a2, a3, a5], Y=[a1, a4, a6, a7], arity=8]
+[X=[a0, a2, a3, a6, a7], Y=[a1, a4, a5], arity=8]
+[X=[a0, a2, a3, a6], Y=[a1, a4, a5, a7], arity=8]
+[X=[a0, a2, a3, a7], Y=[a1, a4, a5, a6], arity=8]
+[X=[a0, a2, a3], Y=[a1, a4, a5, a6, a7], arity=8]
+[X=[a0, a2, a4, a5, a6, a7], Y=[a1, a3], arity=8]
+[X=[a0, a2, a4, a5, a6], Y=[a1, a3, a7], arity=8]
+[X=[a0, a2, a4, a5, a7], Y=[a1, a3, a6], arity=8]
+[X=[a0, a2, a4, a5], Y=[a1, a3, a6, a7], arity=8]
+[X=[a0, a2, a4, a6, a7], Y=[a1, a3, a5], arity=8]
+[X=[a0, a2, a4, a6], Y=[a1, a3, a5, a7], arity=8]
+[X=[a0, a2, a4, a7], Y=[a1, a3, a5, a6], arity=8]
+[X=[a0, a2, a4], Y=[a1, a3, a5, a6, a7], arity=8]
+[X=[a0, a2, a5, a6, a7], Y=[a1, a3, a4], arity=8]
+[X=[a0, a2, a5, a6], Y=[a1, a3, a4, a7], arity=8]
+[X=[a0, a2, a5, a7], Y=[a1, a3, a4, a6], arity=8]
+[X=[a0, a2, a5], Y=[a1, a3, a4, a6, a7], arity=8]
+[X=[a0, a2, a6, a7], Y=[a1, a3, a4, a5], arity=8]
+[X=[a0, a2, a6], Y=[a1, a3, a4, a5, a7], arity=8]
+[X=[a0, a2, a7], Y=[a1, a3, a4, a5, a6], arity=8]
+[X=[a0, a2], Y=[a1, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a3, a4, a5, a6, a7], Y=[a1, a2], arity=8]
+[X=[a0, a3, a4, a5, a6], Y=[a1, a2, a7], arity=8]
+[X=[a0, a3, a4, a5, a7], Y=[a1, a2, a6], arity=8]
+[X=[a0, a3, a4, a5], Y=[a1, a2, a6, a7], arity=8]
+[X=[a0, a3, a4, a6, a7], Y=[a1, a2, a5], arity=8]
+[X=[a0, a3, a4, a6], Y=[a1, a2, a5, a7], arity=8]
+[X=[a0, a3, a4, a7], Y=[a1, a2, a5, a6], arity=8]
+[X=[a0, a3, a4], Y=[a1, a2, a5, a6, a7], arity=8]
+[X=[a0, a3, a5, a6, a7], Y=[a1, a2, a4], arity=8]
+[X=[a0, a3, a5, a6], Y=[a1, a2, a4, a7], arity=8]
+[X=[a0, a3, a5, a7], Y=[a1, a2, a4, a6], arity=8]
+[X=[a0, a3, a5], Y=[a1, a2, a4, a6, a7], arity=8]
+[X=[a0, a3, a6, a7], Y=[a1, a2, a4, a5], arity=8]
+[X=[a0, a3, a6], Y=[a1, a2, a4, a5, a7], arity=8]
+[X=[a0, a3, a7], Y=[a1, a2, a4, a5, a6], arity=8]
+[X=[a0, a3], Y=[a1, a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a4, a5, a6, a7], Y=[a1, a2, a3], arity=8]
+[X=[a0, a4, a5, a6], Y=[a1, a2, a3, a7], arity=8]
+[X=[a0, a4, a5, a7], Y=[a1, a2, a3, a6], arity=8]
+[X=[a0, a4, a5], Y=[a1, a2, a3, a6, a7], arity=8]
+[X=[a0, a4, a6, a7], Y=[a1, a2, a3, a5], arity=8]
+[X=[a0, a4, a6], Y=[a1, a2, a3, a5, a7], arity=8]
+[X=[a0, a4, a7], Y=[a1, a2, a3, a5, a6], arity=8]
+[X=[a0, a4], Y=[a1, a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a5, a6, a7], Y=[a1, a2, a3, a4], arity=8]
+[X=[a0, a5, a6], Y=[a1, a2, a3, a4, a7], arity=8]
+[X=[a0, a5, a7], Y=[a1, a2, a3, a4, a6], arity=8]
+[X=[a0, a5], Y=[a1, a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a6, a7], Y=[a1, a2, a3, a4, a5], arity=8]
+[X=[a0, a6], Y=[a1, a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a7], Y=[a1, a2, a3, a4, a5, a6], arity=8]
+[X=[a0], Y=[a1, a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a6, a7], Y=[a2], arity=8]
+[X=[a0, a1, a3, a4, a5, a6], Y=[a2, a7], arity=8]
+[X=[a0, a1, a3, a4, a5, a7], Y=[a2, a6], arity=8]
+[X=[a0, a1, a3, a4, a5], Y=[a2, a6, a7], arity=8]
+[X=[a0, a1, a3, a4, a6, a7], Y=[a2, a5], arity=8]
+[X=[a0, a1, a3, a4, a6], Y=[a2, a5, a7], arity=8]
+[X=[a0, a1, a3, a4, a7], Y=[a2, a5, a6], arity=8]
+[X=[a0, a1, a3, a4], Y=[a2, a5, a6, a7], arity=8]
+[X=[a0, a1, a3, a5, a6, a7], Y=[a2, a4], arity=8]
+[X=[a0, a1, a3, a5, a6], Y=[a2, a4, a7], arity=8]
+[X=[a0, a1, a3, a5, a7], Y=[a2, a4, a6], arity=8]
+[X=[a0, a1, a3, a5], Y=[a2, a4, a6, a7], arity=8]
+[X=[a0, a1, a3, a6, a7], Y=[a2, a4, a5], arity=8]
+[X=[a0, a1, a3, a6], Y=[a2, a4, a5, a7], arity=8]
+[X=[a0, a1, a3, a7], Y=[a2, a4, a5, a6], arity=8]
+[X=[a0, a1, a3], Y=[a2, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a4, a5, a6, a7], Y=[a2, a3], arity=8]
+[X=[a0, a1, a4, a5, a6], Y=[a2, a3, a7], arity=8]
+[X=[a0, a1, a4, a5, a7], Y=[a2, a3, a6], arity=8]
+[X=[a0, a1, a4, a5], Y=[a2, a3, a6, a7], arity=8]
+[X=[a0, a1, a4, a6, a7], Y=[a2, a3, a5], arity=8]
+[X=[a0, a1, a4, a6], Y=[a2, a3, a5, a7], arity=8]
+[X=[a0, a1, a4, a7], Y=[a2, a3, a5, a6], arity=8]
+[X=[a0, a1, a4], Y=[a2, a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a5, a6, a7], Y=[a2, a3, a4], arity=8]
+[X=[a0, a1, a5, a6], Y=[a2, a3, a4, a7], arity=8]
+[X=[a0, a1, a5, a7], Y=[a2, a3, a4, a6], arity=8]
+[X=[a0, a1, a5], Y=[a2, a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a6, a7], Y=[a2, a3, a4, a5], arity=8]
+[X=[a0, a1, a6], Y=[a2, a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a7], Y=[a2, a3, a4, a5, a6], arity=8]
+[X=[a0, a1], Y=[a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a6, a7], Y=[a3], arity=8]
+[X=[a0, a1, a2, a4, a5, a6], Y=[a3, a7], arity=8]
+[X=[a0, a1, a2, a4, a5, a7], Y=[a3, a6], arity=8]
+[X=[a0, a1, a2, a4, a5], Y=[a3, a6, a7], arity=8]
+[X=[a0, a1, a2, a4, a6, a7], Y=[a3, a5], arity=8]
+[X=[a0, a1, a2, a4, a6], Y=[a3, a5, a7], arity=8]
+[X=[a0, a1, a2, a4, a7], Y=[a3, a5, a6], arity=8]
+[X=[a0, a1, a2, a4], Y=[a3, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a5, a6, a7], Y=[a3, a4], arity=8]
+[X=[a0, a1, a2, a5, a6], Y=[a3, a4, a7], arity=8]
+[X=[a0, a1, a2, a5, a7], Y=[a3, a4, a6], arity=8]
+[X=[a0, a1, a2, a5], Y=[a3, a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a6, a7], Y=[a3, a4, a5], arity=8]
+[X=[a0, a1, a2, a6], Y=[a3, a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a7], Y=[a3, a4, a5, a6], arity=8]
+[X=[a0, a1, a2], Y=[a3, a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a6, a7], Y=[a4], arity=8]
+[X=[a0, a1, a2, a3, a5, a6], Y=[a4, a7], arity=8]
+[X=[a0, a1, a2, a3, a5, a7], Y=[a4, a6], arity=8]
+[X=[a0, a1, a2, a3, a5], Y=[a4, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a6, a7], Y=[a4, a5], arity=8]
+[X=[a0, a1, a2, a3, a6], Y=[a4, a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a7], Y=[a4, a5, a6], arity=8]
+[X=[a0, a1, a2, a3], Y=[a4, a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a6, a7], Y=[a5], arity=8]
+[X=[a0, a1, a2, a3, a4, a6], Y=[a5, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a7], Y=[a5, a6], arity=8]
+[X=[a0, a1, a2, a3, a4], Y=[a5, a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a7], Y=[a6], arity=8]
+[X=[a0, a1, a2, a3, a4, a5], Y=[a6, a7], arity=8]
+[X=[a0, a1, a2, a3, a4, a5, a6], Y=[a7], arity=8]
+
+cost : 18.503 seconds
+########
+
+alg 1 + 3, cost : 18.503 | #IS : 127 | max arity : 8 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 2
+col num : 2 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.005 seconds
+
+cost : 0.006 seconds
+########
+
+alg 1 + 4, cost : 0.006 | #IS : 0 | max arity : 0 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 3
+col num : 3 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.01 seconds
+arity level : 3 | |MPCOVER| : 3 | next |CANDIDATES| : 3 | cost : 0.005 seconds
+[X=[a4], Y=[a6, a7], arity=3]
+[X=[a6], Y=[a4, a7], arity=3]
+[X=[a7], Y=[a4, a6], arity=3]
+
+cost : 0.016 seconds
+########
+
+alg 1 + 4, cost : 0.016 | #IS : 3 | max arity : 3 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 4
+col num : 4 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 6 | next |CANDIDATES| : 12 | cost : 0.021 seconds
+arity level : 3 | |MPCOVER| : 12 | next |CANDIDATES| : 7 | cost : 0.027 seconds
+arity level : 4 | |MPCOVER| : 7 | next |CANDIDATES| : 7 | cost : 0.02 seconds
+[X=[a1], Y=[a2, a6, a7], arity=4]
+[X=[a2, a6], Y=[a1, a7], arity=4]
+[X=[a2, a7], Y=[a1, a6], arity=4]
+[X=[a2], Y=[a1, a6, a7], arity=4]
+[X=[a6, a7], Y=[a1, a2], arity=4]
+[X=[a6], Y=[a1, a2, a7], arity=4]
+[X=[a7], Y=[a1, a2, a6], arity=4]
+
+cost : 0.071 seconds
+########
+
+alg 1 + 4, cost : 0.071 | #IS : 7 | max arity : 4 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 5
+col num : 5 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 6 | next |CANDIDATES| : 12 | cost : 0.031 seconds
+arity level : 3 | |MPCOVER| : 12 | next |CANDIDATES| : 7 | cost : 0.018 seconds
+arity level : 4 | |MPCOVER| : 7 | next |CANDIDATES| : 0 | cost : 0.01 seconds
+[X=[a0], Y=[a2, a5, a6], arity=4]
+[X=[a2, a5], Y=[a0, a6], arity=4]
+[X=[a2, a6], Y=[a0, a5], arity=4]
+[X=[a2], Y=[a0, a5, a6], arity=4]
+[X=[a5, a6], Y=[a0, a2], arity=4]
+[X=[a5], Y=[a0, a2, a6], arity=4]
+[X=[a6], Y=[a0, a2, a5], arity=4]
+
+cost : 0.061 seconds
+########
+
+alg 1 + 4, cost : 0.061 | #IS : 7 | max arity : 4 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 6
+col num : 6 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 10 | next |CANDIDATES| : 30 | cost : 0.047 seconds
+arity level : 3 | |MPCOVER| : 30 | next |CANDIDATES| : 35 | cost : 0.062 seconds
+arity level : 4 | |MPCOVER| : 35 | next |CANDIDATES| : 15 | cost : 0.085 seconds
+arity level : 5 | |MPCOVER| : 15 | next |CANDIDATES| : 0 | cost : 0.054 seconds
+[X=[a0], Y=[a2, a3, a6, a7], arity=5]
+[X=[a2, a3, a6], Y=[a0, a7], arity=5]
+[X=[a2, a3, a7], Y=[a0, a6], arity=5]
+[X=[a2, a3], Y=[a0, a6, a7], arity=5]
+[X=[a2, a6, a7], Y=[a0, a3], arity=5]
+[X=[a2, a6], Y=[a0, a3, a7], arity=5]
+[X=[a2, a7], Y=[a0, a3, a6], arity=5]
+[X=[a2], Y=[a0, a3, a6, a7], arity=5]
+[X=[a3, a6, a7], Y=[a0, a2], arity=5]
+[X=[a3, a6], Y=[a0, a2, a7], arity=5]
+[X=[a3, a7], Y=[a0, a2, a6], arity=5]
+[X=[a3], Y=[a0, a2, a6, a7], arity=5]
+[X=[a6, a7], Y=[a0, a2, a3], arity=5]
+[X=[a6], Y=[a0, a2, a3, a7], arity=5]
+[X=[a7], Y=[a0, a2, a3, a6], arity=5]
+
+cost : 0.252 seconds
+########
+
+alg 1 + 4, cost : 0.252 | #IS : 15 | max arity : 5 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 7
+col num : 7 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 15 | next |CANDIDATES| : 60 | cost : 0.062 seconds
+arity level : 3 | |MPCOVER| : 60 | next |CANDIDATES| : 105 | cost : 0.104 seconds
+arity level : 4 | |MPCOVER| : 105 | next |CANDIDATES| : 90 | cost : 0.207 seconds
+arity level : 5 | |MPCOVER| : 90 | next |CANDIDATES| : 31 | cost : 0.233 seconds
+arity level : 6 | |MPCOVER| : 31 | next |CANDIDATES| : 0 | cost : 0.131 seconds
+[X=[a0], Y=[a2, a3, a4, a5, a6], arity=6]
+[X=[a2, a3, a4, a5], Y=[a0, a6], arity=6]
+[X=[a2, a3, a4, a6], Y=[a0, a5], arity=6]
+[X=[a2, a3, a4], Y=[a0, a5, a6], arity=6]
+[X=[a2, a3, a5, a6], Y=[a0, a4], arity=6]
+[X=[a2, a3, a5], Y=[a0, a4, a6], arity=6]
+[X=[a2, a3, a6], Y=[a0, a4, a5], arity=6]
+[X=[a2, a3], Y=[a0, a4, a5, a6], arity=6]
+[X=[a2, a4, a5, a6], Y=[a0, a3], arity=6]
+[X=[a2, a4, a5], Y=[a0, a3, a6], arity=6]
+[X=[a2, a4, a6], Y=[a0, a3, a5], arity=6]
+[X=[a2, a4], Y=[a0, a3, a5, a6], arity=6]
+[X=[a2, a5, a6], Y=[a0, a3, a4], arity=6]
+[X=[a2, a5], Y=[a0, a3, a4, a6], arity=6]
+[X=[a2, a6], Y=[a0, a3, a4, a5], arity=6]
+[X=[a2], Y=[a0, a3, a4, a5, a6], arity=6]
+[X=[a3, a4, a5, a6], Y=[a0, a2], arity=6]
+[X=[a3, a4, a5], Y=[a0, a2, a6], arity=6]
+[X=[a3, a4, a6], Y=[a0, a2, a5], arity=6]
+[X=[a3, a4], Y=[a0, a2, a5, a6], arity=6]
+[X=[a3, a5, a6], Y=[a0, a2, a4], arity=6]
+[X=[a3, a5], Y=[a0, a2, a4, a6], arity=6]
+[X=[a3, a6], Y=[a0, a2, a4, a5], arity=6]
+[X=[a3], Y=[a0, a2, a4, a5, a6], arity=6]
+[X=[a4, a5, a6], Y=[a0, a2, a3], arity=6]
+[X=[a4, a5], Y=[a0, a2, a3, a6], arity=6]
+[X=[a4, a6], Y=[a0, a2, a3, a5], arity=6]
+[X=[a4], Y=[a0, a2, a3, a5, a6], arity=6]
+[X=[a5, a6], Y=[a0, a2, a3, a4], arity=6]
+[X=[a5], Y=[a0, a2, a3, a4, a6], arity=6]
+[X=[a6], Y=[a0, a2, a3, a4, a5], arity=6]
+
+cost : 0.743 seconds
+########
+
+alg 1 + 4, cost : 0.743 | #IS : 31 | max arity : 6 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 8
+col num : 8 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 21 | next |CANDIDATES| : 105 | cost : 0.077 seconds
+arity level : 3 | |MPCOVER| : 105 | next |CANDIDATES| : 245 | cost : 0.201 seconds
+arity level : 4 | |MPCOVER| : 245 | next |CANDIDATES| : 315 | cost : 0.546 seconds
+arity level : 5 | |MPCOVER| : 315 | next |CANDIDATES| : 217 | cost : 0.957 seconds
+arity level : 6 | |MPCOVER| : 217 | next |CANDIDATES| : 63 | cost : 1.117 seconds
+arity level : 7 | |MPCOVER| : 63 | next |CANDIDATES| : 0 | cost : 0.488 seconds
+[X=[a0], Y=[a1, a3, a4, a5, a6, a7], arity=7]
+[X=[a1, a3, a4, a5, a6], Y=[a0, a7], arity=7]
+[X=[a1, a3, a4, a5, a7], Y=[a0, a6], arity=7]
+[X=[a1, a3, a4, a5], Y=[a0, a6, a7], arity=7]
+[X=[a1, a3, a4, a6, a7], Y=[a0, a5], arity=7]
+[X=[a1, a3, a4, a6], Y=[a0, a5, a7], arity=7]
+[X=[a1, a3, a4, a7], Y=[a0, a5, a6], arity=7]
+[X=[a1, a3, a4], Y=[a0, a5, a6, a7], arity=7]
+[X=[a1, a3, a5, a6, a7], Y=[a0, a4], arity=7]
+[X=[a1, a3, a5, a6], Y=[a0, a4, a7], arity=7]
+[X=[a1, a3, a5, a7], Y=[a0, a4, a6], arity=7]
+[X=[a1, a3, a5], Y=[a0, a4, a6, a7], arity=7]
+[X=[a1, a3, a6, a7], Y=[a0, a4, a5], arity=7]
+[X=[a1, a3, a6], Y=[a0, a4, a5, a7], arity=7]
+[X=[a1, a3, a7], Y=[a0, a4, a5, a6], arity=7]
+[X=[a1, a3], Y=[a0, a4, a5, a6, a7], arity=7]
+[X=[a1, a4, a5, a6, a7], Y=[a0, a3], arity=7]
+[X=[a1, a4, a5, a6], Y=[a0, a3, a7], arity=7]
+[X=[a1, a4, a5, a7], Y=[a0, a3, a6], arity=7]
+[X=[a1, a4, a5], Y=[a0, a3, a6, a7], arity=7]
+[X=[a1, a4, a6, a7], Y=[a0, a3, a5], arity=7]
+[X=[a1, a4, a6], Y=[a0, a3, a5, a7], arity=7]
+[X=[a1, a4, a7], Y=[a0, a3, a5, a6], arity=7]
+[X=[a1, a4], Y=[a0, a3, a5, a6, a7], arity=7]
+[X=[a1, a5, a6, a7], Y=[a0, a3, a4], arity=7]
+[X=[a1, a5, a6], Y=[a0, a3, a4, a7], arity=7]
+[X=[a1, a5, a7], Y=[a0, a3, a4, a6], arity=7]
+[X=[a1, a5], Y=[a0, a3, a4, a6, a7], arity=7]
+[X=[a1, a6, a7], Y=[a0, a3, a4, a5], arity=7]
+[X=[a1, a6], Y=[a0, a3, a4, a5, a7], arity=7]
+[X=[a1, a7], Y=[a0, a3, a4, a5, a6], arity=7]
+[X=[a1], Y=[a0, a3, a4, a5, a6, a7], arity=7]
+[X=[a3, a4, a5, a6, a7], Y=[a0, a1], arity=7]
+[X=[a3, a4, a5, a6], Y=[a0, a1, a7], arity=7]
+[X=[a3, a4, a5, a7], Y=[a0, a1, a6], arity=7]
+[X=[a3, a4, a5], Y=[a0, a1, a6, a7], arity=7]
+[X=[a3, a4, a6, a7], Y=[a0, a1, a5], arity=7]
+[X=[a3, a4, a6], Y=[a0, a1, a5, a7], arity=7]
+[X=[a3, a4, a7], Y=[a0, a1, a5, a6], arity=7]
+[X=[a3, a4], Y=[a0, a1, a5, a6, a7], arity=7]
+[X=[a3, a5, a6, a7], Y=[a0, a1, a4], arity=7]
+[X=[a3, a5, a6], Y=[a0, a1, a4, a7], arity=7]
+[X=[a3, a5, a7], Y=[a0, a1, a4, a6], arity=7]
+[X=[a3, a5], Y=[a0, a1, a4, a6, a7], arity=7]
+[X=[a3, a6, a7], Y=[a0, a1, a4, a5], arity=7]
+[X=[a3, a6], Y=[a0, a1, a4, a5, a7], arity=7]
+[X=[a3, a7], Y=[a0, a1, a4, a5, a6], arity=7]
+[X=[a3], Y=[a0, a1, a4, a5, a6, a7], arity=7]
+[X=[a4, a5, a6, a7], Y=[a0, a1, a3], arity=7]
+[X=[a4, a5, a6], Y=[a0, a1, a3, a7], arity=7]
+[X=[a4, a5, a7], Y=[a0, a1, a3, a6], arity=7]
+[X=[a4, a5], Y=[a0, a1, a3, a6, a7], arity=7]
+[X=[a4, a6, a7], Y=[a0, a1, a3, a5], arity=7]
+[X=[a4, a6], Y=[a0, a1, a3, a5, a7], arity=7]
+[X=[a4, a7], Y=[a0, a1, a3, a5, a6], arity=7]
+[X=[a4], Y=[a0, a1, a3, a5, a6, a7], arity=7]
+[X=[a5, a6, a7], Y=[a0, a1, a3, a4], arity=7]
+[X=[a5, a6], Y=[a0, a1, a3, a4, a7], arity=7]
+[X=[a5, a7], Y=[a0, a1, a3, a4, a6], arity=7]
+[X=[a5], Y=[a0, a1, a3, a4, a6, a7], arity=7]
+[X=[a6, a7], Y=[a0, a1, a3, a4, a5], arity=7]
+[X=[a6], Y=[a0, a1, a3, a4, a5, a7], arity=7]
+[X=[a7], Y=[a0, a1, a3, a4, a5, a6], arity=7]
+
+cost : 3.392 seconds
+########
+
+alg 1 + 4, cost : 3.392 | #IS : 63 | max arity : 7 | constant col : -1
+********
+
+
+F:\freeman\TKDE\all_datasets\nursery.csv
+exp with column efficiency, new col num : 9
+col num : 9 | row num : 12960
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 28 | next |CANDIDATES| : 168 | cost : 0.109 seconds
+arity level : 3 | |MPCOVER| : 168 | next |CANDIDATES| : 490 | cost : 0.379 seconds
+arity level : 4 | |MPCOVER| : 490 | next |CANDIDATES| : 840 | cost : 1.457 seconds
+arity level : 5 | |MPCOVER| : 840 | next |CANDIDATES| : 868 | cost : 3.495 seconds
+arity level : 6 | |MPCOVER| : 868 | next |CANDIDATES| : 504 | cost : 6.067 seconds
+arity level : 7 | |MPCOVER| : 504 | next |CANDIDATES| : 127 | cost : 5.433 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 0 | cost : 1.959 seconds
+[X=[a0], Y=[a1, a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a1, a2, a3, a4, a5, a6], Y=[a0, a7], arity=8]
+[X=[a1, a2, a3, a4, a5, a7], Y=[a0, a6], arity=8]
+[X=[a1, a2, a3, a4, a5], Y=[a0, a6, a7], arity=8]
+[X=[a1, a2, a3, a4, a6, a7], Y=[a0, a5], arity=8]
+[X=[a1, a2, a3, a4, a6], Y=[a0, a5, a7], arity=8]
+[X=[a1, a2, a3, a4, a7], Y=[a0, a5, a6], arity=8]
+[X=[a1, a2, a3, a4], Y=[a0, a5, a6, a7], arity=8]
+[X=[a1, a2, a3, a5, a6, a7], Y=[a0, a4], arity=8]
+[X=[a1, a2, a3, a5, a6], Y=[a0, a4, a7], arity=8]
+[X=[a1, a2, a3, a5, a7], Y=[a0, a4, a6], arity=8]
+[X=[a1, a2, a3, a5], Y=[a0, a4, a6, a7], arity=8]
+[X=[a1, a2, a3, a6, a7], Y=[a0, a4, a5], arity=8]
+[X=[a1, a2, a3, a6], Y=[a0, a4, a5, a7], arity=8]
+[X=[a1, a2, a3, a7], Y=[a0, a4, a5, a6], arity=8]
+[X=[a1, a2, a3], Y=[a0, a4, a5, a6, a7], arity=8]
+[X=[a1, a2, a4, a5, a6, a7], Y=[a0, a3], arity=8]
+[X=[a1, a2, a4, a5, a6], Y=[a0, a3, a7], arity=8]
+[X=[a1, a2, a4, a5, a7], Y=[a0, a3, a6], arity=8]
+[X=[a1, a2, a4, a5], Y=[a0, a3, a6, a7], arity=8]
+[X=[a1, a2, a4, a6, a7], Y=[a0, a3, a5], arity=8]
+[X=[a1, a2, a4, a6], Y=[a0, a3, a5, a7], arity=8]
+[X=[a1, a2, a4, a7], Y=[a0, a3, a5, a6], arity=8]
+[X=[a1, a2, a4], Y=[a0, a3, a5, a6, a7], arity=8]
+[X=[a1, a2, a5, a6, a7], Y=[a0, a3, a4], arity=8]
+[X=[a1, a2, a5, a6], Y=[a0, a3, a4, a7], arity=8]
+[X=[a1, a2, a5, a7], Y=[a0, a3, a4, a6], arity=8]
+[X=[a1, a2, a5], Y=[a0, a3, a4, a6, a7], arity=8]
+[X=[a1, a2, a6, a7], Y=[a0, a3, a4, a5], arity=8]
+[X=[a1, a2, a6], Y=[a0, a3, a4, a5, a7], arity=8]
+[X=[a1, a2, a7], Y=[a0, a3, a4, a5, a6], arity=8]
+[X=[a1, a2], Y=[a0, a3, a4, a5, a6, a7], arity=8]
+[X=[a1, a3, a4, a5, a6, a7], Y=[a0, a2], arity=8]
+[X=[a1, a3, a4, a5, a6], Y=[a0, a2, a7], arity=8]
+[X=[a1, a3, a4, a5, a7], Y=[a0, a2, a6], arity=8]
+[X=[a1, a3, a4, a5], Y=[a0, a2, a6, a7], arity=8]
+[X=[a1, a3, a4, a6, a7], Y=[a0, a2, a5], arity=8]
+[X=[a1, a3, a4, a6], Y=[a0, a2, a5, a7], arity=8]
+[X=[a1, a3, a4, a7], Y=[a0, a2, a5, a6], arity=8]
+[X=[a1, a3, a4], Y=[a0, a2, a5, a6, a7], arity=8]
+[X=[a1, a3, a5, a6, a7], Y=[a0, a2, a4], arity=8]
+[X=[a1, a3, a5, a6], Y=[a0, a2, a4, a7], arity=8]
+[X=[a1, a3, a5, a7], Y=[a0, a2, a4, a6], arity=8]
+[X=[a1, a3, a5], Y=[a0, a2, a4, a6, a7], arity=8]
+[X=[a1, a3, a6, a7], Y=[a0, a2, a4, a5], arity=8]
+[X=[a1, a3, a6], Y=[a0, a2, a4, a5, a7], arity=8]
+[X=[a1, a3, a7], Y=[a0, a2, a4, a5, a6], arity=8]
+[X=[a1, a3], Y=[a0, a2, a4, a5, a6, a7], arity=8]
+[X=[a1, a4, a5, a6, a7], Y=[a0, a2, a3], arity=8]
+[X=[a1, a4, a5, a6], Y=[a0, a2, a3, a7], arity=8]
+[X=[a1, a4, a5, a7], Y=[a0, a2, a3, a6], arity=8]
+[X=[a1, a4, a5], Y=[a0, a2, a3, a6, a7], arity=8]
+[X=[a1, a4, a6, a7], Y=[a0, a2, a3, a5], arity=8]
+[X=[a1, a4, a6], Y=[a0, a2, a3, a5, a7], arity=8]
+[X=[a1, a4, a7], Y=[a0, a2, a3, a5, a6], arity=8]
+[X=[a1, a4], Y=[a0, a2, a3, a5, a6, a7], arity=8]
+[X=[a1, a5, a6, a7], Y=[a0, a2, a3, a4], arity=8]
+[X=[a1, a5, a6], Y=[a0, a2, a3, a4, a7], arity=8]
+[X=[a1, a5, a7], Y=[a0, a2, a3, a4, a6], arity=8]
+[X=[a1, a5], Y=[a0, a2, a3, a4, a6, a7], arity=8]
+[X=[a1, a6, a7], Y=[a0, a2, a3, a4, a5], arity=8]
+[X=[a1, a6], Y=[a0, a2, a3, a4, a5, a7], arity=8]
+[X=[a1, a7], Y=[a0, a2, a3, a4, a5, a6], arity=8]
+[X=[a1], Y=[a0, a2, a3, a4, a5, a6, a7], arity=8]
+[X=[a2, a3, a4, a5, a6, a7], Y=[a0, a1], arity=8]
+[X=[a2, a3, a4, a5, a6], Y=[a0, a1, a7], arity=8]
+[X=[a2, a3, a4, a5, a7], Y=[a0, a1, a6], arity=8]
+[X=[a2, a3, a4, a5], Y=[a0, a1, a6, a7], arity=8]
+[X=[a2, a3, a4, a6, a7], Y=[a0, a1, a5], arity=8]
+[X=[a2, a3, a4, a6], Y=[a0, a1, a5, a7], arity=8]
+[X=[a2, a3, a4, a7], Y=[a0, a1, a5, a6], arity=8]
+[X=[a2, a3, a4], Y=[a0, a1, a5, a6, a7], arity=8]
+[X=[a2, a3, a5, a6, a7], Y=[a0, a1, a4], arity=8]
+[X=[a2, a3, a5, a6], Y=[a0, a1, a4, a7], arity=8]
+[X=[a2, a3, a5, a7], Y=[a0, a1, a4, a6], arity=8]
+[X=[a2, a3, a5], Y=[a0, a1, a4, a6, a7], arity=8]
+[X=[a2, a3, a6, a7], Y=[a0, a1, a4, a5], arity=8]
+[X=[a2, a3, a6], Y=[a0, a1, a4, a5, a7], arity=8]
+[X=[a2, a3, a7], Y=[a0, a1, a4, a5, a6], arity=8]
+[X=[a2, a3], Y=[a0, a1, a4, a5, a6, a7], arity=8]
+[X=[a2, a4, a5, a6, a7], Y=[a0, a1, a3], arity=8]
+[X=[a2, a4, a5, a6], Y=[a0, a1, a3, a7], arity=8]
+[X=[a2, a4, a5, a7], Y=[a0, a1, a3, a6], arity=8]
+[X=[a2, a4, a5], Y=[a0, a1, a3, a6, a7], arity=8]
+[X=[a2, a4, a6, a7], Y=[a0, a1, a3, a5], arity=8]
+[X=[a2, a4, a6], Y=[a0, a1, a3, a5, a7], arity=8]
+[X=[a2, a4, a7], Y=[a0, a1, a3, a5, a6], arity=8]
+[X=[a2, a4], Y=[a0, a1, a3, a5, a6, a7], arity=8]
+[X=[a2, a5, a6, a7], Y=[a0, a1, a3, a4], arity=8]
+[X=[a2, a5, a6], Y=[a0, a1, a3, a4, a7], arity=8]
+[X=[a2, a5, a7], Y=[a0, a1, a3, a4, a6], arity=8]
+[X=[a2, a5], Y=[a0, a1, a3, a4, a6, a7], arity=8]
+[X=[a2, a6, a7], Y=[a0, a1, a3, a4, a5], arity=8]
+[X=[a2, a6], Y=[a0, a1, a3, a4, a5, a7], arity=8]
+[X=[a2, a7], Y=[a0, a1, a3, a4, a5, a6], arity=8]
+[X=[a2], Y=[a0, a1, a3, a4, a5, a6, a7], arity=8]
+[X=[a3, a4, a5, a6, a7], Y=[a0, a1, a2], arity=8]
+[X=[a3, a4, a5, a6], Y=[a0, a1, a2, a7], arity=8]
+[X=[a3, a4, a5, a7], Y=[a0, a1, a2, a6], arity=8]
+[X=[a3, a4, a5], Y=[a0, a1, a2, a6, a7], arity=8]
+[X=[a3, a4, a6, a7], Y=[a0, a1, a2, a5], arity=8]
+[X=[a3, a4, a6], Y=[a0, a1, a2, a5, a7], arity=8]
+[X=[a3, a4, a7], Y=[a0, a1, a2, a5, a6], arity=8]
+[X=[a3, a4], Y=[a0, a1, a2, a5, a6, a7], arity=8]
+[X=[a3, a5, a6, a7], Y=[a0, a1, a2, a4], arity=8]
+[X=[a3, a5, a6], Y=[a0, a1, a2, a4, a7], arity=8]
+[X=[a3, a5, a7], Y=[a0, a1, a2, a4, a6], arity=8]
+[X=[a3, a5], Y=[a0, a1, a2, a4, a6, a7], arity=8]
+[X=[a3, a6, a7], Y=[a0, a1, a2, a4, a5], arity=8]
+[X=[a3, a6], Y=[a0, a1, a2, a4, a5, a7], arity=8]
+[X=[a3, a7], Y=[a0, a1, a2, a4, a5, a6], arity=8]
+[X=[a3], Y=[a0, a1, a2, a4, a5, a6, a7], arity=8]
+[X=[a4, a5, a6, a7], Y=[a0, a1, a2, a3], arity=8]
+[X=[a4, a5, a6], Y=[a0, a1, a2, a3, a7], arity=8]
+[X=[a4, a5, a7], Y=[a0, a1, a2, a3, a6], arity=8]
+[X=[a4, a5], Y=[a0, a1, a2, a3, a6, a7], arity=8]
+[X=[a4, a6, a7], Y=[a0, a1, a2, a3, a5], arity=8]
+[X=[a4, a6], Y=[a0, a1, a2, a3, a5, a7], arity=8]
+[X=[a4, a7], Y=[a0, a1, a2, a3, a5, a6], arity=8]
+[X=[a4], Y=[a0, a1, a2, a3, a5, a6, a7], arity=8]
+[X=[a5, a6, a7], Y=[a0, a1, a2, a3, a4], arity=8]
+[X=[a5, a6], Y=[a0, a1, a2, a3, a4, a7], arity=8]
+[X=[a5, a7], Y=[a0, a1, a2, a3, a4, a6], arity=8]
+[X=[a5], Y=[a0, a1, a2, a3, a4, a6, a7], arity=8]
+[X=[a6, a7], Y=[a0, a1, a2, a3, a4, a5], arity=8]
+[X=[a6], Y=[a0, a1, a2, a3, a4, a5, a7], arity=8]
+[X=[a7], Y=[a0, a1, a2, a3, a4, a5, a6], arity=8]
+
+cost : 18.906 seconds
+########
+
+alg 1 + 4, cost : 18.906 | #IS : 127 | max arity : 8 | constant col : -1
+********
+
+

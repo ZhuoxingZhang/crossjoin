@@ -1,0 +1,341 @@
+F:\freeman\TKDE\all_datasets\echo.csv
+col num : 12 | row num : 132
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.028 seconds
+
+cost : 0.036 seconds
+########
+
+alg 1 + 2, cost : 0.036 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\echo.csv
+col num : 12 | row num : 132
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.011 seconds
+
+cost : 0.013 seconds
+########
+
+alg 1 + 3, cost : 0.013 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\echo.csv
+col num : 12 | row num : 132
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.011 seconds
+
+cost : 0.013 seconds
+########
+
+alg 1 + 4, cost : 0.013 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+col num : 18 | row num : 1000
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.913 seconds
+
+cost : 0.924 seconds
+########
+
+alg 1 + 2, cost : 0.924 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+col num : 18 | row num : 1000
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.862 seconds
+
+cost : 0.864 seconds
+########
+
+alg 1 + 3, cost : 0.864 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+col num : 18 | row num : 1000
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.857 seconds
+
+cost : 0.858 seconds
+########
+
+alg 1 + 4, cost : 0.858 | #IS : 0 | max arity : 0 | constant col : 1
+********
+
+
+F:\freeman\TKDE\all_datasets\plista.csv
+col num : 40 | row num : 1001
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 40 | next |CANDIDATES| : 2788 | cost : 2.374 seconds
+arity level : 3 | |MPCOVER| : 72 | next |CANDIDATES| : 4672 | cost : 4.325 seconds
+arity level : 4 | |MPCOVER| : 64 | next |CANDIDATES| : 2999 | cost : 6.375 seconds
+arity level : 5 | |MPCOVER| : 43 | next |CANDIDATES| : 1169 | cost : 3.796 seconds
+arity level : 6 | |MPCOVER| : 32 | next |CANDIDATES| : 204 | cost : 1.02 seconds
+arity level : 7 | |MPCOVER| : 32 | next |CANDIDATES| : 0 | cost : 0.125 seconds
+[X=[a13], Y=[a41], arity=2]
+[X=[a13], Y=[a56], arity=2]
+[X=[a19], Y=[a41], arity=2]
+[X=[a30], Y=[a41], arity=2]
+[X=[a30], Y=[a56], arity=2]
+[X=[a0, a56], Y=[a19], arity=3]
+[X=[a1, a16], Y=[a35], arity=3]
+[X=[a1, a16], Y=[a41], arity=3]
+[X=[a13], Y=[a14, a16], arity=3]
+[X=[a13], Y=[a14, a30], arity=3]
+[X=[a13], Y=[a19, a30], arity=3]
+[X=[a13, a19], Y=[a30], arity=3]
+[X=[a13, a37], Y=[a30], arity=3]
+[X=[a13], Y=[a30, a35], arity=3]
+[X=[a13, a31], Y=[a35], arity=3]
+[X=[a13, a37], Y=[a35], arity=3]
+[X=[a14, a16], Y=[a19], arity=3]
+[X=[a14, a30], Y=[a19], arity=3]
+[X=[a19], Y=[a30, a35], arity=3]
+[X=[a19], Y=[a31, a56], arity=3]
+[X=[a30, a35], Y=[a37], arity=3]
+[X=[a0, a13, a16], Y=[a19], arity=4]
+[X=[a0, a13, a30], Y=[a19], arity=4]
+[X=[a0, a13, a37], Y=[a19], arity=4]
+[X=[a13, a30, a31], Y=[a19], arity=4]
+[X=[a13, a31, a37], Y=[a19], arity=4]
+[X=[a1, a3, a16], Y=[a13, a31], arity=5]
+[X=[a1, a3, a16], Y=[a13, a37], arity=5]
+[X=[a1, a3, a16], Y=[a31, a56], arity=5]
+[X=[a1, a2, a3, a16, a19], Y=[a13], arity=6]
+[X=[a1, a2, a3, a16], Y=[a13, a19], arity=6]
+[X=[a1, a2, a3, a13, a16], Y=[a19], arity=6]
+
+cost : 18.031 seconds
+########
+
+alg 1 + 2, cost : 18.031 | #IS : 32 | max arity : 6 | constant col : 23
+********
+
+
+F:\freeman\TKDE\all_datasets\plista.csv
+col num : 40 | row num : 1001
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 40 | next |CANDIDATES| : 252 | cost : 2.42 seconds
+arity level : 3 | |MPCOVER| : 72 | next |CANDIDATES| : 44 | cost : 0.698 seconds
+arity level : 4 | |MPCOVER| : 64 | next |CANDIDATES| : 17 | cost : 0.11 seconds
+arity level : 5 | |MPCOVER| : 43 | next |CANDIDATES| : 3 | cost : 0.019 seconds
+arity level : 6 | |MPCOVER| : 32 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+[X=[a13], Y=[a41], arity=2]
+[X=[a13], Y=[a56], arity=2]
+[X=[a19], Y=[a41], arity=2]
+[X=[a30], Y=[a41], arity=2]
+[X=[a30], Y=[a56], arity=2]
+[X=[a0, a56], Y=[a19], arity=3]
+[X=[a1, a16], Y=[a35], arity=3]
+[X=[a1, a16], Y=[a41], arity=3]
+[X=[a13], Y=[a14, a16], arity=3]
+[X=[a13], Y=[a14, a30], arity=3]
+[X=[a13], Y=[a19, a30], arity=3]
+[X=[a13, a19], Y=[a30], arity=3]
+[X=[a13, a37], Y=[a30], arity=3]
+[X=[a13], Y=[a30, a35], arity=3]
+[X=[a13, a31], Y=[a35], arity=3]
+[X=[a13, a37], Y=[a35], arity=3]
+[X=[a14, a16], Y=[a19], arity=3]
+[X=[a14, a30], Y=[a19], arity=3]
+[X=[a19], Y=[a30, a35], arity=3]
+[X=[a19], Y=[a31, a56], arity=3]
+[X=[a30, a35], Y=[a37], arity=3]
+[X=[a0, a13, a16], Y=[a19], arity=4]
+[X=[a0, a13, a30], Y=[a19], arity=4]
+[X=[a0, a13, a37], Y=[a19], arity=4]
+[X=[a13, a30, a31], Y=[a19], arity=4]
+[X=[a13, a31, a37], Y=[a19], arity=4]
+[X=[a1, a3, a16], Y=[a13, a31], arity=5]
+[X=[a1, a3, a16], Y=[a13, a37], arity=5]
+[X=[a1, a3, a16], Y=[a31, a56], arity=5]
+[X=[a1, a2, a3, a16, a19], Y=[a13], arity=6]
+[X=[a1, a2, a3, a16], Y=[a13, a19], arity=6]
+[X=[a1, a2, a3, a13, a16], Y=[a19], arity=6]
+
+cost : 3.254 seconds
+########
+
+alg 1 + 3, cost : 3.254 | #IS : 32 | max arity : 6 | constant col : 23
+********
+
+
+F:\freeman\TKDE\all_datasets\plista.csv
+col num : 40 | row num : 1001
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 40 | next |CANDIDATES| : 252 | cost : 1.981 seconds
+arity level : 3 | |MPCOVER| : 72 | next |CANDIDATES| : 102 | cost : 0.102 seconds
+arity level : 4 | |MPCOVER| : 64 | next |CANDIDATES| : 23 | cost : 0.058 seconds
+arity level : 5 | |MPCOVER| : 43 | next |CANDIDATES| : 3 | cost : 0.01 seconds
+arity level : 6 | |MPCOVER| : 32 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+[X=[a13], Y=[a41], arity=2]
+[X=[a13], Y=[a56], arity=2]
+[X=[a19], Y=[a41], arity=2]
+[X=[a30], Y=[a41], arity=2]
+[X=[a30], Y=[a56], arity=2]
+[X=[a19], Y=[a0, a56], arity=3]
+[X=[a35], Y=[a1, a16], arity=3]
+[X=[a41], Y=[a1, a16], arity=3]
+[X=[a13], Y=[a14, a16], arity=3]
+[X=[a13], Y=[a14, a30], arity=3]
+[X=[a13], Y=[a19, a30], arity=3]
+[X=[a13], Y=[a30, a35], arity=3]
+[X=[a30], Y=[a13, a19], arity=3]
+[X=[a30], Y=[a13, a37], arity=3]
+[X=[a35], Y=[a13, a31], arity=3]
+[X=[a35], Y=[a13, a37], arity=3]
+[X=[a19], Y=[a14, a16], arity=3]
+[X=[a19], Y=[a14, a30], arity=3]
+[X=[a19], Y=[a30, a35], arity=3]
+[X=[a19], Y=[a31, a56], arity=3]
+[X=[a37], Y=[a30, a35], arity=3]
+[X=[a19], Y=[a0, a13, a16], arity=4]
+[X=[a19], Y=[a0, a13, a30], arity=4]
+[X=[a19], Y=[a0, a13, a37], arity=4]
+[X=[a19], Y=[a13, a30, a31], arity=4]
+[X=[a19], Y=[a13, a31, a37], arity=4]
+[X=[a13, a31], Y=[a1, a3, a16], arity=5]
+[X=[a13, a37], Y=[a1, a3, a16], arity=5]
+[X=[a31, a56], Y=[a1, a3, a16], arity=5]
+[X=[a13, a19], Y=[a1, a2, a3, a16], arity=6]
+[X=[a13], Y=[a1, a2, a3, a16, a19], arity=6]
+[X=[a19], Y=[a1, a2, a3, a13, a16], arity=6]
+
+cost : 2.157 seconds
+########
+
+alg 1 + 4, cost : 2.157 | #IS : 32 | max arity : 6 | constant col : 23
+********
+
+
+F:\freeman\TKDE\all_datasets\flight.csv
+col num : 70 | row num : 1000
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 18 | next |CANDIDATES| : 2334 | cost : 5.246 seconds
+arity level : 3 | |MPCOVER| : 56 | next |CANDIDATES| : 6965 | cost : 4.412 seconds
+arity level : 4 | |MPCOVER| : 127 | next |CANDIDATES| : 15473 | cost : 16.445 seconds
+arity level : 5 | |MPCOVER| : 217 | next |CANDIDATES| : 26292 | cost : 40.9 seconds
+arity level : 6 | |MPCOVER| : 259 | next |CANDIDATES| : 31206 | cost : 73.048 seconds
+arity level : 7 | |MPCOVER| : 217 | next |CANDIDATES| : 25740 | cost : 88.54 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 14565 | cost : 76.154 seconds
+arity level : 9 | |MPCOVER| : 52 | next |CANDIDATES| : 5410 | cost : 45.486 seconds
+arity level : 10 | |MPCOVER| : 17 | next |CANDIDATES| : 1191 | cost : 18.071 seconds
+arity level : 11 | |MPCOVER| : 8 | next |CANDIDATES| : 118 | cost : 4.377 seconds
+arity level : 12 | |MPCOVER| : 8 | next |CANDIDATES| : 0 | cost : 0.472 seconds
+[X=[a35], Y=[a59], arity=2]
+[X=[a46], Y=[a59], arity=2]
+[X=[a4, a59], Y=[a55], arity=3]
+[X=[a4], Y=[a55, a59], arity=3]
+[X=[a4, a55], Y=[a59], arity=3]
+[X=[a3, a4, a5], Y=[a55], arity=4]
+[X=[a3, a4, a5], Y=[a59], arity=4]
+[X=[a20, a21, a22, a23, a24, a25, a26, a27, a28, a55], Y=[a59], arity=11]
+
+cost : 373.178 seconds
+########
+
+alg 1 + 2, cost : 373.178 | #IS : 8 | max arity : 11 | constant col : 39
+********
+
+
+F:\freeman\TKDE\all_datasets\flight.csv
+col num : 70 | row num : 1000
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 18 | next |CANDIDATES| : 114 | cost : 4.71 seconds
+arity level : 3 | |MPCOVER| : 56 | next |CANDIDATES| : 122 | cost : 1.328 seconds
+arity level : 4 | |MPCOVER| : 127 | next |CANDIDATES| : 210 | cost : 2.745 seconds
+arity level : 5 | |MPCOVER| : 217 | next |CANDIDATES| : 252 | cost : 7.624 seconds
+arity level : 6 | |MPCOVER| : 259 | next |CANDIDATES| : 210 | cost : 10.928 seconds
+arity level : 7 | |MPCOVER| : 217 | next |CANDIDATES| : 120 | cost : 7.534 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 45 | cost : 2.561 seconds
+arity level : 9 | |MPCOVER| : 52 | next |CANDIDATES| : 10 | cost : 0.459 seconds
+arity level : 10 | |MPCOVER| : 17 | next |CANDIDATES| : 1 | cost : 0.049 seconds
+arity level : 11 | |MPCOVER| : 8 | next |CANDIDATES| : 0 | cost : 0.004 seconds
+[X=[a35], Y=[a59], arity=2]
+[X=[a46], Y=[a59], arity=2]
+[X=[a4, a59], Y=[a55], arity=3]
+[X=[a4], Y=[a55, a59], arity=3]
+[X=[a4, a55], Y=[a59], arity=3]
+[X=[a3, a4, a5], Y=[a55], arity=4]
+[X=[a3, a4, a5], Y=[a59], arity=4]
+[X=[a20, a21, a22, a23, a24, a25, a26, a27, a28, a55], Y=[a59], arity=11]
+
+cost : 37.958 seconds
+########
+
+alg 1 + 3, cost : 37.958 | #IS : 8 | max arity : 11 | constant col : 39
+********
+
+
+F:\freeman\TKDE\all_datasets\flight.csv
+col num : 70 | row num : 1000
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 18 | next |CANDIDATES| : 114 | cost : 4.505 seconds
+arity level : 3 | |MPCOVER| : 56 | next |CANDIDATES| : 125 | cost : 0.216 seconds
+arity level : 4 | |MPCOVER| : 127 | next |CANDIDATES| : 211 | cost : 0.387 seconds
+arity level : 5 | |MPCOVER| : 217 | next |CANDIDATES| : 252 | cost : 0.944 seconds
+arity level : 6 | |MPCOVER| : 259 | next |CANDIDATES| : 210 | cost : 1.115 seconds
+arity level : 7 | |MPCOVER| : 217 | next |CANDIDATES| : 120 | cost : 0.827 seconds
+arity level : 8 | |MPCOVER| : 127 | next |CANDIDATES| : 45 | cost : 0.402 seconds
+arity level : 9 | |MPCOVER| : 52 | next |CANDIDATES| : 10 | cost : 0.14 seconds
+arity level : 10 | |MPCOVER| : 17 | next |CANDIDATES| : 1 | cost : 0.032 seconds
+arity level : 11 | |MPCOVER| : 8 | next |CANDIDATES| : 0 | cost : 0.003 seconds
+[X=[a35], Y=[a59], arity=2]
+[X=[a46], Y=[a59], arity=2]
+[X=[a4], Y=[a55, a59], arity=3]
+[X=[a55], Y=[a4, a59], arity=3]
+[X=[a59], Y=[a4, a55], arity=3]
+[X=[a55], Y=[a3, a4, a5], arity=4]
+[X=[a59], Y=[a3, a4, a5], arity=4]
+[X=[a59], Y=[a20, a21, a22, a23, a24, a25, a26, a27, a28, a55], arity=11]
+
+cost : 8.583 seconds
+########
+
+alg 1 + 4, cost : 8.583 | #IS : 8 | max arity : 11 | constant col : 39
+********
+
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+col num : 201 | row num : 1000
+alg 1 + 2 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 52.193 seconds
+
+cost : 52.212 seconds
+########
+
+alg 1 + 2, cost : 52.212 | #IS : 0 | max arity : 0 | constant col : 22
+********
+
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+col num : 201 | row num : 1000
+alg 1 + 3 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 51.694 seconds
+
+cost : 51.703 seconds
+########
+
+alg 1 + 3, cost : 51.703 | #IS : 0 | max arity : 0 | constant col : 22
+********
+
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+col num : 201 | row num : 1000
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 52.577 seconds
+
+cost : 52.587 seconds
+########
+
+alg 1 + 4, cost : 52.587 | #IS : 0 | max arity : 0 | constant col : 22
+********
+
+

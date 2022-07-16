@@ -1,0 +1,655 @@
+F:\freeman\TKDE\all_datasets\adult.csv
+col num : 15 | row num : 32561
+alg 1 + 4 : 
+arity level : 2 | |MPCOVER| : 14 | next |CANDIDATES| : 47 | cost : 156.044 seconds
+arity level : 3 | |MPCOVER| : 13 | next |CANDIDATES| : 2 | cost : 0.674 seconds
+arity level : 4 | |MPCOVER| : 13 | next |CANDIDATES| : 0 | cost : 0.045 seconds
+IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+
+cost : 156.771 seconds
+########
+
+alg 1 + 4, cost : 156.771 | #IS : 13 | max arity : 3 | constant col : -1
+********
+
+
+IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`6` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`14`=a1.`14` AND a2.`6`=a0.`6`))
+
+query time:  [2318.197, 2323.58, 2330.673, 2332.084, 2332.344]
+
+########################
+
+
+IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 2
+
+SELECT `6` 
+FROM `adult` 
+GROUP BY `6` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `14`) FROM `adult`)
+
+query time:  [0.068, 0.068, 0.068, 0.072, 0.081]
+
+########################
+
+
+IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 3
+
+SELECT `6` 
+FROM `adult`
+
+query time:  [0.025, 0.025, 0.025, 0.028, 0.03]
+
+########################
+
+
+IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`7` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`8`=a1.`8` AND a2.`7`=a0.`7`))
+
+query time:  [2261.388, 2262.88, 2266.747, 2269.499, 2272.264]
+
+########################
+
+
+IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+query ID : 2
+
+SELECT `7` 
+FROM `adult` 
+GROUP BY `7` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `8`) FROM `adult`)
+
+query time:  [0.067, 0.068, 0.068, 0.069, 0.069]
+
+########################
+
+
+IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+query ID : 3
+
+SELECT `7` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.024, 0.025, 0.025]
+
+########################
+
+
+IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`7` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`9`=a1.`9` AND a2.`7`=a0.`7`))
+
+query time:  [2305.288, 2308.135, 2308.472, 2309.391, 2311.446]
+
+########################
+
+
+IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+query ID : 2
+
+SELECT `7` 
+FROM `adult` 
+GROUP BY `7` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `9`) FROM `adult`)
+
+query time:  [0.066, 0.066, 0.067, 0.067, 0.068]
+
+########################
+
+
+IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+query ID : 3
+
+SELECT `7` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.024, 0.025, 0.025]
+
+########################
+
+
+IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`7` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`14`=a1.`14` AND a2.`7`=a0.`7`))
+
+query time:  [2281.619, 2286.673, 2289.909, 2290.501, 2294.315]
+
+########################
+
+
+IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 2
+
+SELECT `7` 
+FROM `adult` 
+GROUP BY `7` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `14`) FROM `adult`)
+
+query time:  [0.067, 0.067, 0.067, 0.069, 0.072]
+
+########################
+
+
+IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+query ID : 3
+
+SELECT `7` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.025, 0.025, 0.031]
+
+########################
+
+
+IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`9` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`1`=a1.`1` AND a2.`14`=a1.`14` AND a2.`9`=a0.`9`))
+
+query time:  [2799.366, 2802.076, 2802.757, 2807.877, 2812.807]
+
+########################
+
+
+IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `9` 
+FROM `adult` 
+GROUP BY `9` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `1`,`14`) FROM `adult`)
+
+query time:  [0.078, 0.078, 0.078, 0.081, 0.099]
+
+########################
+
+
+IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `9` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.024, 0.024, 0.028]
+
+########################
+
+
+IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`7` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`3`=a1.`3` AND a2.`4`=a1.`4` AND a2.`7`=a0.`7`))
+
+query time:  [2877.379, 2879.678, 2882.693, 2891.176, 2894.916]
+
+########################
+
+
+IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `7` 
+FROM `adult` 
+GROUP BY `7` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `3`,`4`) FROM `adult`)
+
+query time:  [0.077, 0.077, 0.078, 0.078, 0.078]
+
+########################
+
+
+IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `7` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.025, 0.025, 0.025]
+
+########################
+
+
+IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`9` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`3`=a1.`3` AND a2.`4`=a1.`4` AND a2.`9`=a0.`9`))
+
+query time:  [2811.606, 2812.09, 2813.444, 2815.972, 2818.573]
+
+########################
+
+
+IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `9` 
+FROM `adult` 
+GROUP BY `9` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `3`,`4`) FROM `adult`)
+
+query time:  [0.076, 0.076, 0.077, 0.09, 0.092]
+
+########################
+
+
+IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `9` 
+FROM `adult`
+
+query time:  [0.023, 0.024, 0.024, 0.024, 0.034]
+
+########################
+
+
+IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`5` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`9`=a1.`9` AND a2.`14`=a1.`14` AND a2.`5`=a0.`5`))
+
+query time:  [2812.656, 2821.855, 2822.847, 2827.889, 2829.666]
+
+########################
+
+
+IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `5` 
+FROM `adult` 
+GROUP BY `5` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `9`,`14`) FROM `adult`)
+
+query time:  [0.075, 0.076, 0.077, 0.079, 0.081]
+
+########################
+
+
+IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `5` 
+FROM `adult`
+
+query time:  [0.024, 0.025, 0.025, 0.025, 0.029]
+
+########################
+
+
+IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`9` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`5`=a1.`5` AND a2.`14`=a1.`14` AND a2.`9`=a0.`9`))
+
+query time:  [2850.796, 2852.308, 2855.475, 2859.486, 2860.573]
+
+########################
+
+
+IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `9` 
+FROM `adult` 
+GROUP BY `9` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `5`,`14`) FROM `adult`)
+
+query time:  [0.085, 0.085, 0.087, 0.087, 0.106]
+
+########################
+
+
+IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `9` 
+FROM `adult`
+
+query time:  [0.024, 0.024, 0.024, 0.029, 0.031]
+
+########################
+
+
+IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`14` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`5`=a1.`5` AND a2.`9`=a1.`9` AND a2.`14`=a0.`14`))
+
+query time:  [2848.626, 2854.514, 2854.758, 2866.208, 2878.032]
+
+########################
+
+
+IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `14` 
+FROM `adult` 
+GROUP BY `14` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `5`,`9`) FROM `adult`)
+
+query time:  [0.08, 0.081, 0.081, 0.081, 0.081]
+
+########################
+
+
+IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `14` 
+FROM `adult`
+
+query time:  [0.023, 0.023, 0.023, 0.024, 0.024]
+
+########################
+
+
+IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`8` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`9`=a1.`9` AND a2.`14`=a1.`14` AND a2.`8`=a0.`8`))
+
+query time:  [2741.359, 2746.442, 2763.32, 2769.301, 2785.0]
+
+########################
+
+
+IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `8` 
+FROM `adult` 
+GROUP BY `8` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `9`,`14`) FROM `adult`)
+
+query time:  [0.073, 0.074, 0.074, 0.074, 0.076]
+
+########################
+
+
+IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `8` 
+FROM `adult`
+
+query time:  [0.023, 0.023, 0.023, 0.024, 0.026]
+
+########################
+
+
+IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`9` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`8`=a1.`8` AND a2.`14`=a1.`14` AND a2.`9`=a0.`9`))
+
+query time:  [2720.973, 2728.124, 2735.716, 2742.085, 2745.521]
+
+########################
+
+
+IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `9` 
+FROM `adult` 
+GROUP BY `9` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `8`,`14`) FROM `adult`)
+
+query time:  [0.074, 0.075, 0.075, 0.075, 0.075]
+
+########################
+
+
+IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `9` 
+FROM `adult`
+
+query time:  [0.023, 0.023, 0.024, 0.027, 0.027]
+
+########################
+
+
+IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+query ID : 1
+
+SELECT a0.`14` 
+FROM `adult` a0 
+WHERE NOT EXISTS( 
+SELECT *
+FROM `adult` a1 
+WHERE NOT EXISTS( 
+SELECT * 
+FROM `adult` a2 
+WHERE a2.`8`=a1.`8` AND a2.`9`=a1.`9` AND a2.`14`=a0.`14`))
+
+query time:  [2725.973, 2748.211, 2798.962, 2881.45, 2929.62]
+
+########################
+
+
+IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+query ID : 2
+
+SELECT `14` 
+FROM `adult` 
+GROUP BY `14` 
+HAVING COUNT(*) = (SELECT COUNT(DISTINCT `8`,`9`) FROM `adult`)
+
+query time:  [0.078, 0.084, 0.094, 0.132, 0.135]
+
+########################
+
+
+IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+query ID : 3
+
+SELECT `14` 
+FROM `adult`
+
+query time:  [0.023, 0.024, 0.024, 0.024, 0.024]
+
+########################
+
+
+
+
+query stats:
+
+num : 0 | IS : IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2330.6730,0.0680,0.0250
+average result : 2327.3756,0.0714,0.0266
+#####################
+
+num : 1 | IS : IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2266.7470,0.0680,0.0240
+average result : 2266.5556,0.0682,0.0244
+#####################
+
+num : 2 | IS : IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2308.4720,0.0670,0.0240
+average result : 2308.5464,0.0668,0.0244
+#####################
+
+num : 3 | IS : IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2289.9090,0.0670,0.0250
+average result : 2288.6034,0.0684,0.0258
+#####################
+
+num : 4 | IS : IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2802.7570,0.0780,0.0240
+average result : 2804.9766,0.0828,0.0248
+#####################
+
+num : 5 | IS : IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2882.6930,0.0780,0.0250
+average result : 2885.1684,0.0776,0.0246
+#####################
+
+num : 6 | IS : IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2813.4440,0.0770,0.0240
+average result : 2814.3370,0.0822,0.0258
+#####################
+
+num : 7 | IS : IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2822.8470,0.0770,0.0250
+average result : 2822.9826,0.0776,0.0256
+#####################
+
+num : 8 | IS : IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2855.4750,0.0870,0.0240
+average result : 2855.7276,0.0900,0.0264
+#####################
+
+num : 9 | IS : IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2854.7580,0.0810,0.0230
+average result : 2860.4276,0.0808,0.0234
+#####################
+
+num : 10 | IS : IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2763.3200,0.0740,0.0230
+average result : 2761.0844,0.0742,0.0238
+#####################
+
+num : 11 | IS : IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2735.7160,0.0750,0.0240
+average result : 2734.4838,0.0748,0.0248
+#####################
+
+num : 12 | IS : IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median result : 2798.9620,0.0940,0.0240
+average result : 2816.8432,0.1046,0.0238
+#####################
+

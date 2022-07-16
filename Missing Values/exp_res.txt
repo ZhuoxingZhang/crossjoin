@@ -1,0 +1,181 @@
+F:\freeman\TKDE\all_datasets\breast.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.077 seconds
+0.086,0,0,0
+
+F:\freeman\TKDE\all_datasets\breast.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.052 seconds
+0.053,0,0,0
+
+F:\freeman\TKDE\all_datasets\breast.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.054 seconds
+0.055,0,0,0
+
+F:\freeman\TKDE\all_datasets\bridges.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 102 | cost : 0.033 seconds
+arity level : 3 | |MPCOVER| : 4 | next |CANDIDATES| : 20 | cost : 0.023 seconds
+arity level : 4 | |MPCOVER| : 4 | next |CANDIDATES| : 0 | cost : 0.01 seconds
+0.076,4,3,0
+
+F:\freeman\TKDE\all_datasets\bridges.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 8 | cost : 0.029 seconds
+arity level : 3 | |MPCOVER| : 4 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+0.032,4,3,0
+
+F:\freeman\TKDE\all_datasets\bridges.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 8 | cost : 0.007 seconds
+arity level : 3 | |MPCOVER| : 4 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+0.009,4,3,0
+
+F:\freeman\TKDE\all_datasets\echo.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 92 | cost : 0.03 seconds
+arity level : 3 | |MPCOVER| : 7 | next |CANDIDATES| : 119 | cost : 0.022 seconds
+arity level : 4 | |MPCOVER| : 5 | next |CANDIDATES| : 16 | cost : 0.006 seconds
+arity level : 5 | |MPCOVER| : 5 | next |CANDIDATES| : 0 | cost : 0.002 seconds
+0.072,5,4,1
+
+F:\freeman\TKDE\all_datasets\echo.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 8 | cost : 0.013 seconds
+arity level : 3 | |MPCOVER| : 7 | next |CANDIDATES| : 1 | cost : 0.001 seconds
+arity level : 4 | |MPCOVER| : 5 | next |CANDIDATES| : 0 | cost : 0.0 seconds
+0.017,5,4,1
+
+F:\freeman\TKDE\all_datasets\echo.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 5 | next |CANDIDATES| : 8 | cost : 0.009 seconds
+arity level : 3 | |MPCOVER| : 7 | next |CANDIDATES| : 2 | cost : 0.001 seconds
+arity level : 4 | |MPCOVER| : 5 | next |CANDIDATES| : 0 | cost : 0.0 seconds
+0.013,5,4,1
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.736 seconds
+0.745,0,0,1
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.69 seconds
+0.691,0,0,1
+
+F:\freeman\TKDE\all_datasets\ncvoter.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 0 | next |CANDIDATES| : 0 | cost : 0.679 seconds
+0.68,0,0,1
+
+F:\freeman\TKDE\all_datasets\hepatitis.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 84 | next |CANDIDATES| : 2092 | cost : 0.315 seconds
+arity level : 3 | |MPCOVER| : 660 | next |CANDIDATES| : 14229 | cost : 6.769 seconds
+arity level : 4 | |MPCOVER| : 1074 | next |CANDIDATES| : 25801 | cost : 12.633 seconds
+arity level : 5 | |MPCOVER| : 856 | next |CANDIDATES| : 3985 | cost : 1.115 seconds
+arity level : 6 | |MPCOVER| : 852 | next |CANDIDATES| : 28 | cost : 0.234 seconds
+arity level : 7 | |MPCOVER| : 852 | next |CANDIDATES| : 0 | cost : 0.004 seconds
+21.08,852,6,0
+
+F:\freeman\TKDE\all_datasets\hepatitis.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 84 | next |CANDIDATES| : 932 | cost : 0.248 seconds
+arity level : 3 | |MPCOVER| : 660 | next |CANDIDATES| : 2237 | cost : 5.833 seconds
+arity level : 4 | |MPCOVER| : 1074 | next |CANDIDATES| : 307 | cost : 12.876 seconds
+arity level : 5 | |MPCOVER| : 856 | next |CANDIDATES| : 2 | cost : 0.25 seconds
+arity level : 6 | |MPCOVER| : 852 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+19.214,852,6,0
+
+F:\freeman\TKDE\all_datasets\hepatitis.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 84 | next |CANDIDATES| : 932 | cost : 0.086 seconds
+arity level : 3 | |MPCOVER| : 660 | next |CANDIDATES| : 2920 | cost : 2.844 seconds
+arity level : 4 | |MPCOVER| : 1074 | next |CANDIDATES| : 1427 | cost : 2.269 seconds
+arity level : 5 | |MPCOVER| : 856 | next |CANDIDATES| : 26 | cost : 0.095 seconds
+arity level : 6 | |MPCOVER| : 852 | next |CANDIDATES| : 0 | cost : 0.003 seconds
+5.302,852,6,0
+
+F:\freeman\TKDE\all_datasets\horse.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 80 | next |CANDIDATES| : 3351 | cost : 0.566 seconds
+arity level : 3 | |MPCOVER| : 178 | next |CANDIDATES| : 6489 | cost : 1.555 seconds
+arity level : 4 | |MPCOVER| : 165 | next |CANDIDATES| : 1574 | cost : 0.412 seconds
+arity level : 5 | |MPCOVER| : 163 | next |CANDIDATES| : 46 | cost : 0.103 seconds
+arity level : 6 | |MPCOVER| : 163 | next |CANDIDATES| : 0 | cost : 0.009 seconds
+2.658,163,5,0
+
+F:\freeman\TKDE\all_datasets\horse.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 80 | next |CANDIDATES| : 809 | cost : 0.819 seconds
+arity level : 3 | |MPCOVER| : 172 | next |CANDIDATES| : 88 | cost : 0.96 seconds
+arity level : 4 | |MPCOVER| : 162 | next |CANDIDATES| : 0 | cost : 0.01 seconds
+1.793,162,4,0
+
+F:\freeman\TKDE\all_datasets\horse.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 80 | next |CANDIDATES| : 809 | cost : 0.113 seconds
+arity level : 3 | |MPCOVER| : 172 | next |CANDIDATES| : 299 | cost : 0.102 seconds
+arity level : 4 | |MPCOVER| : 162 | next |CANDIDATES| : 0 | cost : 0.025 seconds
+0.243,162,4,0
+
+F:\freeman\TKDE\all_datasets\plista.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 76 | next |CANDIDATES| : 4970 | cost : 2.835 seconds
+arity level : 3 | |MPCOVER| : 730 | next |CANDIDATES| : 41886 | cost : 33.889 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\plista.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 76 | next |CANDIDATES| : 806 | cost : 2.878 seconds
+arity level : 3 | |MPCOVER| : 591 | next |CANDIDATES| : 2705 | cost : 22.386 seconds
+arity level : 4 | |MPCOVER| : 2492 | next |CANDIDATES| : 7983 | cost : 271.907 seconds
+arity level : 5 | |MPCOVER| : 7965 | next |CANDIDATES| : 20504 | cost : 3712.073 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\plista.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 76 | next |CANDIDATES| : 806 | cost : 1.908 seconds
+arity level : 3 | |MPCOVER| : 591 | next |CANDIDATES| : 2940 | cost : 8.729 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\flight.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 121 | next |CANDIDATES| : 15258 | cost : 9.874 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\flight.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 121 | next |CANDIDATES| : 1198 | cost : 10.065 seconds
+arity level : 3 | |MPCOVER| : 988 | next |CANDIDATES| : 4685 | cost : 210.344 seconds
+arity level : 4 | |MPCOVER| : 4666 | next |CANDIDATES| : 15282 | cost : 5474.824 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\flight.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 121 | next |CANDIDATES| : 1198 | cost : 4.101 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+alg 1 + 2 result : 
+arity level : 2 | |MPCOVER| : 11 | next |CANDIDATES| : 4348 | cost : 15.641 seconds
+arity level : 3 | |MPCOVER| : 2076 | next |CANDIDATES| : 613979 | cost : 11956.465 seconds
+TL
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+alg 1 + 3 result : 
+arity level : 2 | |MPCOVER| : 11 | next |CANDIDATES| : 30 | cost : 15.025 seconds
+arity level : 3 | |MPCOVER| : 31 | next |CANDIDATES| : 35 | cost : 3.785 seconds
+arity level : 4 | |MPCOVER| : 36 | next |CANDIDATES| : 15 | cost : 3.617 seconds
+arity level : 5 | |MPCOVER| : 16 | next |CANDIDATES| : 0 | cost : 0.369 seconds
+22.817,16,5,22
+
+F:\freeman\TKDE\all_datasets\uniprot.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 11 | next |CANDIDATES| : 30 | cost : 14.007 seconds
+arity level : 3 | |MPCOVER| : 31 | next |CANDIDATES| : 35 | cost : 0.014 seconds
+arity level : 4 | |MPCOVER| : 36 | next |CANDIDATES| : 15 | cost : 0.009 seconds
+arity level : 5 | |MPCOVER| : 16 | next |CANDIDATES| : 0 | cost : 0.001 seconds
+14.044,16,5,22
+

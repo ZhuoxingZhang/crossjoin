@@ -1,0 +1,89 @@
+F:\freeman\TKDE\all_datasets\adult.csv
+alg 1 + 4 result : 
+arity level : 2 | |MPCOVER| : 14 | next |CANDIDATES| : 47 | cost : 156.044 seconds
+arity level : 3 | |MPCOVER| : 13 | next |CANDIDATES| : 2 | cost : 0.674 seconds
+arity level : 4 | |MPCOVER| : 13 | next |CANDIDATES| : 0 | cost : 0.045 seconds
+156.771,13,3,-1
+
+
+
+query stats:
+
+num : 0 | IS : IS [X=[6], Y=[14], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2330.6730,0.0680,0.0250
+average,2327.3756,0.0714,0.0266
+#####################
+
+num : 1 | IS : IS [X=[7], Y=[8], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2266.7470,0.0680,0.0240
+average,2266.5556,0.0682,0.0244
+#####################
+
+num : 2 | IS : IS [X=[7], Y=[9], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2308.4720,0.0670,0.0240
+average,2308.5464,0.0668,0.0244
+#####################
+
+num : 3 | IS : IS [X=[7], Y=[14], arity=2, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2289.9090,0.0670,0.0250
+average,2288.6034,0.0684,0.0258
+#####################
+
+num : 4 | IS : IS [X=[9], Y=[1, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2802.7570,0.0780,0.0240
+average,2804.9766,0.0828,0.0248
+#####################
+
+num : 5 | IS : IS [X=[7], Y=[3, 4], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2882.6930,0.0780,0.0250
+average,2885.1684,0.0776,0.0246
+#####################
+
+num : 6 | IS : IS [X=[9], Y=[3, 4], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2813.4440,0.0770,0.0240
+average,2814.3370,0.0822,0.0258
+#####################
+
+num : 7 | IS : IS [X=[5], Y=[9, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2822.8470,0.0770,0.0250
+average,2822.9826,0.0776,0.0256
+#####################
+
+num : 8 | IS : IS [X=[9], Y=[5, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2855.4750,0.0870,0.0240
+average,2855.7276,0.0900,0.0264
+#####################
+
+num : 9 | IS : IS [X=[14], Y=[5, 9], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2854.7580,0.0810,0.0230
+average,2860.4276,0.0808,0.0234
+#####################
+
+num : 10 | IS : IS [X=[8], Y=[9, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2763.3200,0.0740,0.0230
+average,2761.0844,0.0742,0.0238
+#####################
+
+num : 11 | IS : IS [X=[9], Y=[8, 14], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2735.7160,0.0750,0.0240
+average,2734.4838,0.0748,0.0248
+#####################
+
+num : 12 | IS : IS [X=[14], Y=[8, 9], arity=3, indep_ratio=1.0]
+Q1,Q2,Q3
+median,2798.9620,0.0940,0.0240
+average,2816.8432,0.1046,0.0238
+#####################
+
